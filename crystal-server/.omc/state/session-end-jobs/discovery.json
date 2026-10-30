@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "cursor": 0,
+  "tickets": [
+    {
+      "sessionId": "ae98c33f-30ea-4f73-9e2b-259962d13b89",
+      "attempts": 0,
+      "retryAt": "2026-10-28T09:24:03.602Z"
+    }
+  ]
+}
