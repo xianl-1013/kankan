@@ -1,0 +1,16 @@
+C:\Users\sjy\mir2-test\tools\ItemImport\obj\Debug\ItemImport.csproj.AssemblyReference.cache
+C:\Users\sjy\mir2-test\tools\ItemImport\obj\Debug\ItemImport.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\sjy\mir2-test\tools\ItemImport\obj\Debug\ItemImport.AssemblyInfoInputs.cache
+C:\Users\sjy\mir2-test\tools\ItemImport\obj\Debug\ItemImport.AssemblyInfo.cs
+C:\Users\sjy\mir2-test\tools\ItemImport\obj\Debug\ItemImport.csproj.CoreCompileInputs.cache
+C:\Users\sjy\mir2-test\Crystal\Build\Server\Release\tools\ItemImport.exe
+C:\Users\sjy\mir2-test\Crystal\Build\Server\Release\tools\ItemImport.deps.json
+C:\Users\sjy\mir2-test\Crystal\Build\Server\Release\tools\ItemImport.runtimeconfig.json
+C:\Users\sjy\mir2-test\Crystal\Build\Server\Release\tools\ItemImport.dll
+C:\Users\sjy\mir2-test\Crystal\Build\Server\Release\tools\ItemImport.pdb
+C:\Users\sjy\mir2-test\tools\ItemImport\obj\Debug\ItemImport.csproj.Up2Date
+C:\Users\sjy\mir2-test\tools\ItemImport\obj\Debug\ItemImport.dll
+C:\Users\sjy\mir2-test\tools\ItemImport\obj\Debug\refint\ItemImport.dll
+C:\Users\sjy\mir2-test\tools\ItemImport\obj\Debug\ItemImport.pdb
+C:\Users\sjy\mir2-test\tools\ItemImport\obj\Debug\ItemImport.genruntimeconfig.cache
+C:\Users\sjy\mir2-test\tools\ItemImport\obj\Debug\ref\ItemImport.dll

@@ -1,0 +1,18 @@
+{
+  "name": "Server.Library.csproj",
+  "path": "Server/Server.Library.csproj",
+  "sha": "b9fbfacbf752e4ba8d10575342b7209c749aa1d5",
+  "size": 1072,
+  "url": "https://api.github.com/repos/fluttergo/Lom_mir2_net8ZH/contents/Server/Server.Library.csproj?ref=main",
+  "html_url": "https://github.com/fluttergo/Lom_mir2_net8ZH/blob/main/Server/Server.Library.csproj",
+  "git_url": "https://api.github.com/repos/fluttergo/Lom_mir2_net8ZH/git/blobs/b9fbfacbf752e4ba8d10575342b7209c749aa1d5",
+  "download_url": "https://raw.githubusercontent.com/fluttergo/Lom_mir2_net8ZH/main/Server/Server.Library.csproj",
+  "type": "file",
+  "content": "77u/PFByb2plY3QgU2RrPSJNaWNyb3NvZnQuTkVULlNkayI+CgogIDxQcm9w\nZXJ0eUdyb3VwPgogICAgPE91dHB1dFR5cGU+TGlicmFyeTwvT3V0cHV0VHlw\nZT4KICAgIDxUYXJnZXRGcmFtZXdvcms+bmV0OC4wPC9UYXJnZXRGcmFtZXdv\ncms+CiAgICA8TnVsbGFibGU+ZGlzYWJsZTwvTnVsbGFibGU+CiAgICA8SW1w\nbGljaXRVc2luZ3M+ZW5hYmxlPC9JbXBsaWNpdFVzaW5ncz4KICA8L1Byb3Bl\ncnR5R3JvdXA+CgogIDxQcm9wZXJ0eUdyb3VwPgoJPEFwcGVuZFRhcmdldEZy\nYW1ld29ya1RvT3V0cHV0UGF0aD5mYWxzZTwvQXBwZW5kVGFyZ2V0RnJhbWV3\nb3JrVG9PdXRwdXRQYXRoPgoJPEFwcGVuZFJ1bnRpbWVJZGVudGlmaWVyVG9P\ndXRwdXRQYXRoPmZhbHNlPC9BcHBlbmRSdW50aW1lSWRlbnRpZmllclRvT3V0\ncHV0UGF0aD4KICA8L1Byb3BlcnR5R3JvdXA+CgogIDxJdGVtR3JvdXA+CiAg\nICA8UGFja2FnZVJlZmVyZW5jZSBJbmNsdWRlPSJEYXBwZXIiIFZlcnNpb249\nIjIuMS43MiIgLz4KICAgIDxQYWNrYWdlUmVmZXJlbmNlIEluY2x1ZGU9Imxv\nZzRuZXQiIFZlcnNpb249IjMuMC4zIiAvPgogICAgPFBhY2thZ2VSZWZlcmVu\nY2UgSW5jbHVkZT0iTWljcm9zb2Z0LkNvZGVBbmFseXNpcyIgVmVyc2lvbj0i\nNC4xMC4wIiAvPgogICAgPFBhY2thZ2VSZWZlcmVuY2UgSW5jbHVkZT0iTWlj\ncm9zb2Z0LkNvZGVBbmFseXNpcy5DU2hhcnAiIFZlcnNpb249IjQuMTAuMCIg\nLz4KICAgIDxQYWNrYWdlUmVmZXJlbmNlIEluY2x1ZGU9Ik1pY3Jvc29mdC5D\nb2RlQW5hbHlzaXMuQ1NoYXJwLldvcmtzcGFjZXMiIFZlcnNpb249IjQuMTAu\nMCIgLz4KICAgIDxQYWNrYWdlUmVmZXJlbmNlIEluY2x1ZGU9Ik1pY3Jvc29m\ndC5EYXRhLlNxbGl0ZSIgVmVyc2lvbj0iMTAuMC41IiAvPgogICAgPFBhY2th\nZ2VSZWZlcmVuY2UgSW5jbHVkZT0iTXlTcWxDb25uZWN0b3IiIFZlcnNpb249\nIjIuNS4wIiAvPgogIDwvSXRlbUdyb3VwPgoKICA8SXRlbUdyb3VwPgogICAg\nPFByb2plY3RSZWZlcmVuY2UgSW5jbHVkZT0iLi5cU2hhcmVkXFNoYXJlZC5j\nc3Byb2oiIC8+CiAgPC9JdGVtR3JvdXA+Cgo8L1Byb2plY3Q+Cg==\n",
+  "encoding": "base64",
+  "_links": {
+    "self": "https://api.github.com/repos/fluttergo/Lom_mir2_net8ZH/contents/Server/Server.Library.csproj?ref=main",
+    "git": "https://api.github.com/repos/fluttergo/Lom_mir2_net8ZH/git/blobs/b9fbfacbf752e4ba8d10575342b7209c749aa1d5",
+    "html": "https://github.com/fluttergo/Lom_mir2_net8ZH/blob/main/Server/Server.Library.csproj"
+  }
+}

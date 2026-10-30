@@ -1,0 +1,2992 @@
+[
+ {
+  "lib": "Title",
+  "idx": 0,
+  "text": "仓库",
+  "info": {
+   "size": "(71, 15)",
+   "transparent": true,
+   "fg": "(239, 242, 238)",
+   "bg": "(23, 16, 8)",
+   "font": 13,
+   "stroke": 1
+  }
+ },
+ {
+  "lib": "Title",
+  "idx": 5,
+  "text": "组队",
+  "info": {
+   "size": "(55, 15)",
+   "transparent": true,
+   "fg": "(239, 242, 238)",
+   "bg": "(22, 16, 8)",
+   "font": 13,
+   "stroke": 1
+  }
+ },
+ {
+  "lib": "Title",
+  "idx": 6,
+  "text": "好友",
+  "info": {
+   "size": "(57, 15)",
+   "transparent": true,
+   "fg": "(239, 242, 237)",
+   "bg": "(23, 16, 8)",
+   "font": 13,
+   "stroke": 1
+  }
+ },
+ {
+  "lib": "Title",
+  "idx": 7,
+  "text": "邮件",
+  "info": {
+   "size": "(43, 14)",
+   "transparent": true,
+   "fg": "(238, 241, 236)",
+   "bg": "(23, 16, 8)",
+   "font": 12,
+   "stroke": 1
+  }
+ },
+ {
+  "lib": "Title",
+  "idx": 14,
+  "text": "任务",
+  "info": {
+   "size": "(55, 17)",
+   "transparent": true,
+   "fg": "(239, 242, 238)",
+   "bg": "(22, 15, 8)",
+   "font": 14,
+   "stroke": 1
+  }
+ },
+ {
+  "lib": "Title",
+  "idx": 15,
+  "text": "任务日志",
+  "info": {
+   "size": "(103, 17)",
+   "transparent": true,
+   "fg": "(238, 241, 237)",
+   "bg": "(23, 16, 8)",
+   "font": 14,
+   "stroke": 1
+  }
+ },
+ {
+  "lib": "Title",
+  "idx": 16,
+  "text": "任务",
+  "info": {
+   "size": "(55, 17)",
+   "transparent": true,
+   "fg": "(239, 242, 238)",
+   "bg": "(22, 15, 8)",
+   "font": 14,
+   "stroke": 1
+  }
+ },
+ {
+  "lib": "Title",
+  "idx": 18,
+  "text": "锻造",
+  "info": {
+   "size": "(57, 15)",
+   "transparent": true,
+   "fg": "(238, 241, 237)",
+   "bg": "(23, 16, 8)",
+   "font": 13,
+   "stroke": 1
+  }
+ },
+ {
+  "lib": "Title",
+  "idx": 20,
+  "text": "新建角色",
+  "info": {
+   "size": "(187, 20)",
+   "transparent": true,
+   "fg": "(240, 244, 240)",
+   "bg": "(23, 16, 8)",
+   "font": 17,
+   "stroke": 1
+  }
+ },
+ {
+  "lib": "Title",
+  "idx": 25,
+  "text": "公会",
+  "info": {
+   "size": "(49, 15)",
+   "transparent": true,
+   "fg": "(236, 238, 232)",
+   "bg": "(23, 16, 8)",
+   "font": 13,
+   "stroke": 1
+  }
+ },
+ {
+  "lib": "Title",
+  "idx": 26,
+  "text": "商城",
+  "info": {
+   "size": "(87, 15)",
+   "transparent": true,
+   "fg": "(238, 241, 236)",
+   "bg": "(22, 16, 8)",
+   "font": 13,
+   "stroke": 1
+  }
+ },
+ {
+  "lib": "Title",
+  "idx": 27,
+  "text": "购买",
+  "info": {
+   "size": "(37, 14)",
+   "transparent": true,
+   "fg": "(238, 242, 237)",
+   "bg": "(22, 15, 7)",
+   "font": 12,
+   "stroke": 1
+  }
+ },
+ {
+  "lib": "Title",
+  "idx": 30,
+  "text": "登录",
+  "info": {
+   "size": "(102, 24)",
+   "transparent": true,
+   "fg": "(239, 243, 239)",
+   "bg": "(23, 16, 8)",
+   "font": 21,
+   "stroke": 2
+  }
+ },
+ {
+  "lib": "Title",
+  "idx": 31,
+  "text": "账号",
+  "info": {
+   "size": "(32, 20)",
+   "transparent": false,
+   "fg": "(183, 179, 169)",
+   "bg": "(8, 0, 0)",
+   "font": 11,
+   "stroke": 1
+  }
+ },
+ {
+  "lib": "Title",
+  "idx": 32,
+  "text": "密码",
+  "info": {
+   "size": "(32, 20)",
+   "transparent": false,
+   "fg": "(209, 206, 199)",
+   "bg": "(7, 1, 2)",
+   "font": 11,
+   "stroke": 1
+  }
+ },
+ {
+  "lib": "Title",
+  "idx": 40,
+  "text": "选择",
+  "info": {
+   "size": "(84, 19)",
+   "transparent": true,
+   "fg": "(239, 242, 238)",
+   "bg": "(23, 16, 8)",
+   "font": 16,
+   "stroke": 1
+  }
+ },
+ {
+  "lib": "Title",
+  "idx": 45,
+  "text": "ESC退出",
+  "info": {
+   "size": "(68, 16)",
+   "transparent": false,
+   "fg": "(251, 251, 251)",
+   "bg": "(23, 23, 23)",
+   "font": 8,
+   "stroke": 0
+  }
+ },
+ {
+  "lib": "Title",
+  "idx": 51,
+  "text": "师徒",
+  "info": {
+   "size": "(68, 15)",
+   "transparent": true,
+   "fg": "(238, 241, 236)",
+   "bg": "(22, 15, 8)",
+   "font": 13,
+   "stroke": 1
+  }
+ },
+ {
+  "lib": "Title",
+  "idx": 52,
+  "text": "关系",
+  "info": {
+   "size": "(109, 15)",
+   "transparent": true,
+   "fg": "(238, 241, 236)",
+   "bg": "(23, 16, 8)",
+   "font": 13,
+   "stroke": 1
+  }
+ },
+ {
+  "lib": "Title",
+  "idx": 54,
+  "text": "公会领地",
+  "info": {
+   "size": "(133, 15)",
+   "transparent": true,
+   "fg": "(238, 242, 237)",
+   "bg": "(22, 16, 8)",
+   "font": 13,
+   "stroke": 1
+  }
+ },
+ {
+  "lib": "Title",
+  "idx": 57,
+  "text": "帮助",
+  "info": {
+   "size": "(45, 14)",
+   "transparent": true,
+   "fg": "(238, 241, 236)",
+   "bg": "(22, 16, 8)",
+   "font": 12,
+   "stroke": 1
+  }
+ },
+ {
+  "lib": "Title",
+  "idx": 93,
+  "text": "公告",
+  "info": {
+   "size": "(72, 24)",
+   "transparent": false,
+   "fg": "(201, 198, 183)",
+   "bg": "(21, 17, 10)",
+   "font": 13,
+   "stroke": 1
+  }
+ },
+ {
+  "lib": "Title",
+  "idx": 94,
+  "text": "公告",
+  "info": {
+   "size": "(72, 24)",
+   "transparent": false,
+   "fg": "(208, 206, 179)",
+   "bg": "(55, 39, 20)",
+   "font": 13,
+   "stroke": 1
+  }
+ },
+ {
+  "lib": "Title",
+  "idx": 95,
+  "text": "状态",
+  "info": {
+   "size": "(72, 24)",
+   "transparent": false,
+   "fg": "(200, 196, 179)",
+   "bg": "(21, 17, 10)",
+   "font": 13,
+   "stroke": 1
+  }
+ },
+ {
+  "lib": "Title",
+  "idx": 99,
+  "text": "成员",
+  "info": {
+   "size": "(72, 24)",
+   "transparent": false,
+   "fg": "(210, 208, 201)",
+   "bg": "(20, 16, 10)",
+   "font": 13,
+   "stroke": 1
+  }
+ },
+ {
+  "lib": "Title",
+  "idx": 100,
+  "text": "成员",
+  "info": {
+   "size": "(72, 24)",
+   "transparent": false,
+   "fg": "(216, 217, 194)",
+   "bg": "(50, 36, 20)",
+   "font": 13,
+   "stroke": 1
+  }
+ },
+ {
+  "lib": "Title",
+  "idx": 103,
+  "text": "属性",
+  "info": {
+   "size": "(72, 24)",
+   "transparent": false,
+   "fg": "(198, 192, 174)",
+   "bg": "(21, 17, 10)",
+   "font": 13,
+   "stroke": 1
+  }
+ },
+ {
+  "lib": "Title",
+  "idx": 105,
+  "text": "仓库",
+  "info": {
+   "size": "(72, 24)",
+   "transparent": false,
+   "fg": "(208, 205, 193)",
+   "bg": "(20, 16, 10)",
+   "font": 13,
+   "stroke": 1
+  }
+ },
+ {
+  "lib": "Title",
+  "idx": 106,
+  "text": "仓库",
+  "info": {
+   "size": "(72, 24)",
+   "transparent": false,
+   "fg": "(215, 215, 184)",
+   "bg": "(51, 37, 20)",
+   "font": 13,
+   "stroke": 1
+  }
+ },
+ {
+  "lib": "Title",
+  "idx": 107,
+  "text": "修改密码",
+  "info": {
+   "size": "(90, 25)",
+   "transparent": false,
+   "fg": "(203, 195, 175)",
+   "bg": "(23, 16, 8)",
+   "font": 13,
+   "stroke": 1
+  }
+ },
+ {
+  "lib": "Title",
+  "idx": 108,
+  "text": "修改密码",
+  "info": {
+   "size": "(90, 25)",
+   "transparent": false,
+   "fg": "(220, 211, 183)",
+   "bg": "(40, 28, 17)",
+   "font": 13,
+   "stroke": 1
+  }
+ },
+ {
+  "lib": "Title",
+  "idx": 109,
+  "text": "修改密码",
+  "info": {
+   "size": "(90, 25)",
+   "transparent": false,
+   "fg": "(144, 124, 94)",
+   "bg": "(13, 8, 4)",
+   "font": 13,
+   "stroke": 1
+  }
+ },
+ {
+  "lib": "Title",
+  "idx": 110,
+  "text": "取消",
+  "info": {
+   "size": "(68, 25)",
+   "transparent": false,
+   "fg": "(200, 189, 165)",
+   "bg": "(26, 19, 11)",
+   "font": 13,
+   "stroke": 1
+  }
+ },
+ {
+  "lib": "Title",
+  "idx": 111,
+  "text": "取消",
+  "info": {
+   "size": "(68, 25)",
+   "transparent": false,
+   "fg": "(221, 207, 176)",
+   "bg": "(43, 31, 20)",
+   "font": 13,
+   "stroke": 1
+  }
+ },
+ {
+  "lib": "Title",
+  "idx": 112,
+  "text": "取消",
+  "info": {
+   "size": "(68, 25)",
+   "transparent": false,
+   "fg": "(146, 124, 92)",
+   "bg": "(13, 7, 3)",
+   "font": 13,
+   "stroke": 1
+  }
+ },
+ {
+  "lib": "Title",
+  "idx": 113,
+  "text": "安全",
+  "info": {
+   "size": "(48, 25)",
+   "transparent": false,
+   "fg": "(201, 190, 166)",
+   "bg": "(25, 17, 10)",
+   "font": 13,
+   "stroke": 1
+  }
+ },
+ {
+  "lib": "Title",
+  "idx": 114,
+  "text": "安全",
+  "info": {
+   "size": "(48, 25)",
+   "transparent": false,
+   "fg": "(221, 208, 177)",
+   "bg": "(41, 29, 19)",
+   "font": 13,
+   "stroke": 1
+  }
+ },
+ {
+  "lib": "Title",
+  "idx": 115,
+  "text": "安全",
+  "info": {
+   "size": "(48, 25)",
+   "transparent": false,
+   "fg": "(145, 123, 92)",
+   "bg": "(12, 7, 3)",
+   "font": 13,
+   "stroke": 1
+  }
+ },
+ {
+  "lib": "Title",
+  "idx": 120,
+  "text": "重置",
+  "info": {
+   "size": "(60, 25)",
+   "transparent": false,
+   "fg": "(202, 191, 165)",
+   "bg": "(26, 18, 10)",
+   "font": 13,
+   "stroke": 1
+  }
+ },
+ {
+  "lib": "Title",
+  "idx": 121,
+  "text": "重置",
+  "info": {
+   "size": "(60, 25)",
+   "transparent": false,
+   "fg": "(221, 209, 178)",
+   "bg": "(40, 29, 18)",
+   "font": 13,
+   "stroke": 1
+  }
+ },
+ {
+  "lib": "Title",
+  "idx": 122,
+  "text": "重置",
+  "info": {
+   "size": "(60, 25)",
+   "transparent": false,
+   "fg": "(146, 124, 93)",
+   "bg": "(13, 7, 3)",
+   "font": 13,
+   "stroke": 1
+  }
+ },
+ {
+  "lib": "Title",
+  "idx": 133,
+  "text": "添加成员",
+  "info": {
+   "size": "(60, 25)",
+   "transparent": false,
+   "fg": "(202, 192, 169)",
+   "bg": "(25, 18, 10)",
+   "font": 13,
+   "stroke": 1
+  }
+ },
+ {
+  "lib": "Title",
+  "idx": 134,
+  "text": "添加成员",
+  "info": {
+   "size": "(60, 25)",
+   "transparent": false,
+   "fg": "(220, 209, 178)",
+   "bg": "(40, 29, 17)",
+   "font": 13,
+   "stroke": 1
+  }
+ },
+ {
+  "lib": "Title",
+  "idx": 135,
+  "text": "添加成员",
+  "info": {
+   "size": "(60, 25)",
+   "transparent": false,
+   "fg": "(146, 125, 94)",
+   "bg": "(12, 7, 3)",
+   "font": 13,
+   "stroke": 1
+  }
+ },
+ {
+  "lib": "Title",
+  "idx": 136,
+  "text": "删除成员",
+  "info": {
+   "size": "(60, 25)",
+   "transparent": false,
+   "fg": "(202, 192, 167)",
+   "bg": "(25, 18, 10)",
+   "font": 13,
+   "stroke": 1
+  }
+ },
+ {
+  "lib": "Title",
+  "idx": 137,
+  "text": "删除成员",
+  "info": {
+   "size": "(60, 25)",
+   "transparent": false,
+   "fg": "(221, 209, 177)",
+   "bg": "(40, 29, 18)",
+   "font": 13,
+   "stroke": 1
+  }
+ },
+ {
+  "lib": "Title",
+  "idx": 138,
+  "text": "删除成员",
+  "info": {
+   "size": "(60, 25)",
+   "transparent": false,
+   "fg": "(146, 125, 94)",
+   "bg": "(13, 7, 3)",
+   "font": 13,
+   "stroke": 1
+  }
+ },
+ {
+  "lib": "Title",
+  "idx": 149,
+  "text": "钓鱼",
+  "info": {
+   "size": "(60, 25)",
+   "transparent": false,
+   "fg": "(168, 166, 158)",
+   "bg": "(27, 24, 24)",
+   "font": 13,
+   "stroke": 1
+  }
+ },
+ {
+  "lib": "Title",
+  "idx": 180,
+  "text": "自动",
+  "info": {
+   "size": "(48, 25)",
+   "transparent": false,
+   "fg": "(199, 188, 164)",
+   "bg": "(24, 17, 9)",
+   "font": 13,
+   "stroke": 1
+  }
+ },
+ {
+  "lib": "Title",
+  "idx": 181,
+  "text": "自动",
+  "info": {
+   "size": "(48, 25)",
+   "transparent": false,
+   "fg": "(219, 207, 175)",
+   "bg": "(40, 29, 18)",
+   "font": 13,
+   "stroke": 1
+  }
+ },
+ {
+  "lib": "Title",
+  "idx": 182,
+  "text": "自动",
+  "info": {
+   "size": "(48, 25)",
+   "transparent": false,
+   "fg": "(146, 123, 92)",
+   "bg": "(12, 7, 3)",
+   "font": 13,
+   "stroke": 1
+  }
+ },
+ {
+  "lib": "Title",
+  "idx": 193,
+  "text": "关闭",
+  "info": {
+   "size": "(68, 25)",
+   "transparent": false,
+   "fg": "(199, 188, 160)",
+   "bg": "(28, 20, 11)",
+   "font": 13,
+   "stroke": 1
+  }
+ },
+ {
+  "lib": "Title",
+  "idx": 194,
+  "text": "关闭",
+  "info": {
+   "size": "(68, 25)",
+   "transparent": false,
+   "fg": "(220, 206, 174)",
+   "bg": "(44, 33, 21)",
+   "font": 13,
+   "stroke": 1
+  }
+ },
+ {
+  "lib": "Title",
+  "idx": 195,
+  "text": "关闭",
+  "info": {
+   "size": "(68, 25)",
+   "transparent": false,
+   "fg": "(146, 123, 91)",
+   "bg": "(13, 7, 3)",
+   "font": 13,
+   "stroke": 1
+  }
+ },
+ {
+  "lib": "Title",
+  "idx": 200,
+  "text": "确定",
+  "info": {
+   "size": "(76, 25)",
+   "transparent": false,
+   "fg": "(197, 185, 157)",
+   "bg": "(27, 17, 8)",
+   "font": 13,
+   "stroke": 1
+  }
+ },
+ {
+  "lib": "Title",
+  "idx": 201,
+  "text": "确定",
+  "info": {
+   "size": "(76, 25)",
+   "transparent": false,
+   "fg": "(219, 205, 171)",
+   "bg": "(42, 30, 17)",
+   "font": 13,
+   "stroke": 1
+  }
+ },
+ {
+  "lib": "Title",
+  "idx": 202,
+  "text": "确定",
+  "info": {
+   "size": "(76, 25)",
+   "transparent": false,
+   "fg": "(145, 122, 89)",
+   "bg": "(14, 8, 4)",
+   "font": 13,
+   "stroke": 1
+  }
+ },
+ {
+  "lib": "Title",
+  "idx": 203,
+  "text": "取消",
+  "info": {
+   "size": "(76, 25)",
+   "transparent": false,
+   "fg": "(199, 188, 161)",
+   "bg": "(28, 20, 12)",
+   "font": 13,
+   "stroke": 1
+  }
+ },
+ {
+  "lib": "Title",
+  "idx": 204,
+  "text": "取消",
+  "info": {
+   "size": "(76, 25)",
+   "transparent": false,
+   "fg": "(220, 207, 174)",
+   "bg": "(45, 33, 22)",
+   "font": 13,
+   "stroke": 1
+  }
+ },
+ {
+  "lib": "Title",
+  "idx": 205,
+  "text": "取消",
+  "info": {
+   "size": "(76, 25)",
+   "transparent": false,
+   "fg": "(146, 123, 91)",
+   "bg": "(13, 7, 3)",
+   "font": 13,
+   "stroke": 1
+  }
+ },
+ {
+  "lib": "Title",
+  "idx": 206,
+  "text": "是",
+  "info": {
+   "size": "(76, 25)",
+   "transparent": false,
+   "fg": "(195, 181, 148)",
+   "bg": "(36, 25, 15)",
+   "font": 13,
+   "stroke": 1
+  }
+ },
+ {
+  "lib": "Title",
+  "idx": 207,
+  "text": "是",
+  "info": {
+   "size": "(76, 25)",
+   "transparent": false,
+   "fg": "(219, 203, 167)",
+   "bg": "(52, 39, 26)",
+   "font": 13,
+   "stroke": 1
+  }
+ },
+ {
+  "lib": "Title",
+  "idx": 208,
+  "text": "是",
+  "info": {
+   "size": "(76, 25)",
+   "transparent": false,
+   "fg": "(145, 121, 88)",
+   "bg": "(15, 8, 4)",
+   "font": 13,
+   "stroke": 1
+  }
+ },
+ {
+  "lib": "Title",
+  "idx": 210,
+  "text": "否",
+  "info": {
+   "size": "(76, 25)",
+   "transparent": false,
+   "fg": "(192, 177, 145)",
+   "bg": "(38, 27, 16)",
+   "font": 13,
+   "stroke": 1
+  }
+ },
+ {
+  "lib": "Title",
+  "idx": 211,
+  "text": "否",
+  "info": {
+   "size": "(76, 25)",
+   "transparent": false,
+   "fg": "(218, 202, 165)",
+   "bg": "(54, 41, 27)",
+   "font": 13,
+   "stroke": 1
+  }
+ },
+ {
+  "lib": "Title",
+  "idx": 212,
+  "text": "否",
+  "info": {
+   "size": "(76, 25)",
+   "transparent": false,
+   "fg": "(145, 120, 86)",
+   "bg": "(15, 8, 4)",
+   "font": 13,
+   "stroke": 1
+  }
+ },
+ {
+  "lib": "Title",
+  "idx": 213,
+  "text": "师徒",
+  "info": {
+   "size": "(76, 25)",
+   "transparent": false,
+   "fg": "(202, 193, 171)",
+   "bg": "(26, 19, 11)",
+   "font": 13,
+   "stroke": 1
+  }
+ },
+ {
+  "lib": "Title",
+  "idx": 214,
+  "text": "师徒",
+  "info": {
+   "size": "(76, 25)",
+   "transparent": false,
+   "fg": "(221, 209, 179)",
+   "bg": "(43, 31, 20)",
+   "font": 13,
+   "stroke": 1
+  }
+ },
+ {
+  "lib": "Title",
+  "idx": 215,
+  "text": "师徒",
+  "info": {
+   "size": "(76, 25)",
+   "transparent": false,
+   "fg": "(146, 124, 94)",
+   "bg": "(13, 7, 3)",
+   "font": 13,
+   "stroke": 1
+  }
+ },
+ {
+  "lib": "Title",
+  "idx": 216,
+  "text": "分区",
+  "info": {
+   "size": "(76, 25)",
+   "transparent": false,
+   "fg": "(204, 197, 179)",
+   "bg": "(21, 15, 8)",
+   "font": 13,
+   "stroke": 1
+  }
+ },
+ {
+  "lib": "Title",
+  "idx": 217,
+  "text": "分区",
+  "info": {
+   "size": "(76, 25)",
+   "transparent": false,
+   "fg": "(222, 212, 184)",
+   "bg": "(39, 28, 17)",
+   "font": 13,
+   "stroke": 1
+  }
+ },
+ {
+  "lib": "Title",
+  "idx": 218,
+  "text": "分区",
+  "info": {
+   "size": "(76, 25)",
+   "transparent": false,
+   "fg": "(145, 125, 96)",
+   "bg": "(12, 7, 3)",
+   "font": 13,
+   "stroke": 1
+  }
+ },
+ {
+  "lib": "Title",
+  "idx": 270,
+  "text": "接受",
+  "info": {
+   "size": "(68, 25)",
+   "transparent": false,
+   "fg": "(202, 192, 170)",
+   "bg": "(26, 19, 11)",
+   "font": 13,
+   "stroke": 1
+  }
+ },
+ {
+  "lib": "Title",
+  "idx": 271,
+  "text": "接受",
+  "info": {
+   "size": "(68, 25)",
+   "transparent": false,
+   "fg": "(222, 209, 178)",
+   "bg": "(43, 31, 20)",
+   "font": 13,
+   "stroke": 1
+  }
+ },
+ {
+  "lib": "Title",
+  "idx": 272,
+  "text": "接受",
+  "info": {
+   "size": "(68, 25)",
+   "transparent": false,
+   "fg": "(146, 124, 93)",
+   "bg": "(13, 7, 3)",
+   "font": 13,
+   "stroke": 1
+  }
+ },
+ {
+  "lib": "Title",
+  "idx": 273,
+  "text": "完成",
+  "info": {
+   "size": "(68, 25)",
+   "transparent": false,
+   "fg": "(201, 191, 168)",
+   "bg": "(27, 19, 11)",
+   "font": 13,
+   "stroke": 1
+  }
+ },
+ {
+  "lib": "Title",
+  "idx": 274,
+  "text": "完成",
+  "info": {
+   "size": "(68, 25)",
+   "transparent": false,
+   "fg": "(221, 209, 179)",
+   "bg": "(43, 32, 20)",
+   "font": 13,
+   "stroke": 1
+  }
+ },
+ {
+  "lib": "Title",
+  "idx": 275,
+  "text": "完成",
+  "info": {
+   "size": "(68, 25)",
+   "transparent": false,
+   "fg": "(145, 123, 93)",
+   "bg": "(13, 7, 3)",
+   "font": 13,
+   "stroke": 1
+  }
+ },
+ {
+  "lib": "Title",
+  "idx": 276,
+  "text": "关闭",
+  "info": {
+   "size": "(68, 25)",
+   "transparent": false,
+   "fg": "(199, 188, 160)",
+   "bg": "(28, 20, 11)",
+   "font": 13,
+   "stroke": 1
+  }
+ },
+ {
+  "lib": "Title",
+  "idx": 277,
+  "text": "关闭",
+  "info": {
+   "size": "(68, 25)",
+   "transparent": false,
+   "fg": "(220, 206, 174)",
+   "bg": "(44, 33, 21)",
+   "font": 13,
+   "stroke": 1
+  }
+ },
+ {
+  "lib": "Title",
+  "idx": 278,
+  "text": "关闭",
+  "info": {
+   "size": "(68, 25)",
+   "transparent": false,
+   "fg": "(146, 123, 91)",
+   "bg": "(13, 7, 3)",
+   "font": 13,
+   "stroke": 1
+  }
+ },
+ {
+  "lib": "Title",
+  "idx": 280,
+  "text": "关闭",
+  "info": {
+   "size": "(60, 25)",
+   "transparent": false,
+   "fg": "(201, 190, 164)",
+   "bg": "(25, 17, 10)",
+   "font": 13,
+   "stroke": 1
+  }
+ },
+ {
+  "lib": "Title",
+  "idx": 281,
+  "text": "关闭",
+  "info": {
+   "size": "(60, 25)",
+   "transparent": false,
+   "fg": "(221, 208, 176)",
+   "bg": "(40, 28, 17)",
+   "font": 13,
+   "stroke": 1
+  }
+ },
+ {
+  "lib": "Title",
+  "idx": 282,
+  "text": "关闭",
+  "info": {
+   "size": "(60, 25)",
+   "transparent": false,
+   "fg": "(146, 124, 92)",
+   "bg": "(12, 7, 3)",
+   "font": 13,
+   "stroke": 1
+  }
+ },
+ {
+  "lib": "Title",
+  "idx": 287,
+  "text": "无",
+  "info": {
+   "size": "(76, 25)",
+   "transparent": false,
+   "fg": "(197, 184, 155)",
+   "bg": "(32, 23, 13)",
+   "font": 13,
+   "stroke": 1
+  }
+ },
+ {
+  "lib": "Title",
+  "idx": 288,
+  "text": "无",
+  "info": {
+   "size": "(76, 25)",
+   "transparent": false,
+   "fg": "(220, 205, 171)",
+   "bg": "(48, 36, 23)",
+   "font": 13,
+   "stroke": 1
+  }
+ },
+ {
+  "lib": "Title",
+  "idx": 289,
+  "text": "无",
+  "info": {
+   "size": "(76, 25)",
+   "transparent": false,
+   "fg": "(146, 122, 89)",
+   "bg": "(14, 8, 4)",
+   "font": 13,
+   "stroke": 1
+  }
+ },
+ {
+  "lib": "Title",
+  "idx": 290,
+  "text": "确定",
+  "info": {
+   "size": "(48, 25)",
+   "transparent": false,
+   "fg": "(199, 189, 167)",
+   "bg": "(24, 17, 9)",
+   "font": 13,
+   "stroke": 1
+  }
+ },
+ {
+  "lib": "Title",
+  "idx": 291,
+  "text": "确定",
+  "info": {
+   "size": "(48, 25)",
+   "transparent": false,
+   "fg": "(219, 207, 177)",
+   "bg": "(40, 29, 18)",
+   "font": 13,
+   "stroke": 1
+  }
+ },
+ {
+  "lib": "Title",
+  "idx": 292,
+  "text": "确定",
+  "info": {
+   "size": "(48, 25)",
+   "transparent": false,
+   "fg": "(146, 123, 92)",
+   "bg": "(12, 7, 3)",
+   "font": 13,
+   "stroke": 1
+  }
+ },
+ {
+  "lib": "Title",
+  "idx": 293,
+  "text": "按住",
+  "info": {
+   "size": "(48, 25)",
+   "transparent": false,
+   "fg": "(204, 194, 172)",
+   "bg": "(21, 15, 8)",
+   "font": 13,
+   "stroke": 1
+  }
+ },
+ {
+  "lib": "Title",
+  "idx": 294,
+  "text": "按住",
+  "info": {
+   "size": "(48, 25)",
+   "transparent": false,
+   "fg": "(222, 211, 182)",
+   "bg": "(37, 26, 16)",
+   "font": 13,
+   "stroke": 1
+  }
+ },
+ {
+  "lib": "Title",
+  "idx": 295,
+  "text": "按住",
+  "info": {
+   "size": "(48, 25)",
+   "transparent": false,
+   "fg": "(145, 125, 95)",
+   "bg": "(12, 7, 3)",
+   "font": 13,
+   "stroke": 1
+  }
+ },
+ {
+  "lib": "Title",
+  "idx": 323,
+  "text": "新建",
+  "info": {
+   "size": "(100, 25)",
+   "transparent": false,
+   "fg": "(195, 180, 147)",
+   "bg": "(31, 19, 9)",
+   "font": 13,
+   "stroke": 1
+  }
+ },
+ {
+  "lib": "Title",
+  "idx": 324,
+  "text": "新建",
+  "info": {
+   "size": "(100, 25)",
+   "transparent": false,
+   "fg": "(218, 202, 166)",
+   "bg": "(46, 32, 19)",
+   "font": 13,
+   "stroke": 1
+  }
+ },
+ {
+  "lib": "Title",
+  "idx": 325,
+  "text": "新建",
+  "info": {
+   "size": "(100, 25)",
+   "transparent": false,
+   "fg": "(144, 120, 87)",
+   "bg": "(16, 9, 4)",
+   "font": 13,
+   "stroke": 1
+  }
+ },
+ {
+  "lib": "Title",
+  "idx": 326,
+  "text": "修改密码",
+  "info": {
+   "size": "(100, 25)",
+   "transparent": false,
+   "fg": "(203, 195, 175)",
+   "bg": "(21, 15, 7)",
+   "font": 13,
+   "stroke": 1
+  }
+ },
+ {
+  "lib": "Title",
+  "idx": 327,
+  "text": "修改密码",
+  "info": {
+   "size": "(100, 25)",
+   "transparent": false,
+   "fg": "(222, 211, 182)",
+   "bg": "(38, 26, 16)",
+   "font": 13,
+   "stroke": 1
+  }
+ },
+ {
+  "lib": "Title",
+  "idx": 328,
+  "text": "修改密码",
+  "info": {
+   "size": "(100, 25)",
+   "transparent": false,
+   "fg": "(144, 124, 94)",
+   "bg": "(13, 8, 3)",
+   "font": 13,
+   "stroke": 1
+  }
+ },
+ {
+  "lib": "Title",
+  "idx": 329,
+  "text": "取消",
+  "info": {
+   "size": "(100, 25)",
+   "transparent": false,
+   "fg": "(197, 184, 154)",
+   "bg": "(27, 18, 8)",
+   "font": 13,
+   "stroke": 1
+  }
+ },
+ {
+  "lib": "Title",
+  "idx": 330,
+  "text": "取消",
+  "info": {
+   "size": "(100, 25)",
+   "transparent": false,
+   "fg": "(220, 205, 170)",
+   "bg": "(42, 30, 17)",
+   "font": 13,
+   "stroke": 1
+  }
+ },
+ {
+  "lib": "Title",
+  "idx": 331,
+  "text": "取消",
+  "info": {
+   "size": "(100, 25)",
+   "transparent": false,
+   "fg": "(145, 122, 89)",
+   "bg": "(14, 8, 4)",
+   "font": 13,
+   "stroke": 1
+  }
+ },
+ {
+  "lib": "Title",
+  "idx": 332,
+  "text": "安全",
+  "info": {
+   "size": "(100, 25)",
+   "transparent": false,
+   "fg": "(196, 181, 148)",
+   "bg": "(31, 19, 9)",
+   "font": 13,
+   "stroke": 1
+  }
+ },
+ {
+  "lib": "Title",
+  "idx": 333,
+  "text": "安全",
+  "info": {
+   "size": "(100, 25)",
+   "transparent": false,
+   "fg": "(219, 203, 167)",
+   "bg": "(45, 32, 19)",
+   "font": 13,
+   "stroke": 1
+  }
+ },
+ {
+  "lib": "Title",
+  "idx": 334,
+  "text": "安全",
+  "info": {
+   "size": "(100, 25)",
+   "transparent": false,
+   "fg": "(144, 120, 87)",
+   "bg": "(16, 9, 4)",
+   "font": 13,
+   "stroke": 1
+  }
+ },
+ {
+  "lib": "Title",
+  "idx": 336,
+  "text": "合成",
+  "info": {
+   "size": "(80, 25)",
+   "transparent": false,
+   "fg": "(198, 185, 154)",
+   "bg": "(27, 18, 9)",
+   "font": 13,
+   "stroke": 1
+  }
+ },
+ {
+  "lib": "Title",
+  "idx": 337,
+  "text": "合成",
+  "info": {
+   "size": "(80, 25)",
+   "transparent": false,
+   "fg": "(219, 205, 171)",
+   "bg": "(42, 30, 18)",
+   "font": 13,
+   "stroke": 1
+  }
+ },
+ {
+  "lib": "Title",
+  "idx": 338,
+  "text": "合成",
+  "info": {
+   "size": "(80, 25)",
+   "transparent": false,
+   "fg": "(145, 122, 90)",
+   "bg": "(15, 8, 4)",
+   "font": 13,
+   "stroke": 1
+  }
+ },
+ {
+  "lib": "Title",
+  "idx": 340,
+  "text": "开始",
+  "info": {
+   "size": "(100, 25)",
+   "transparent": false,
+   "fg": "(198, 184, 153)",
+   "bg": "(28, 18, 8)",
+   "font": 13,
+   "stroke": 1
+  }
+ },
+ {
+  "lib": "Title",
+  "idx": 341,
+  "text": "开始",
+  "info": {
+   "size": "(100, 25)",
+   "transparent": false,
+   "fg": "(220, 205, 170)",
+   "bg": "(43, 31, 18)",
+   "font": 13,
+   "stroke": 1
+  }
+ },
+ {
+  "lib": "Title",
+  "idx": 342,
+  "text": "开始",
+  "info": {
+   "size": "(100, 25)",
+   "transparent": false,
+   "fg": "(145, 122, 90)",
+   "bg": "(15, 8, 4)",
+   "font": 13,
+   "stroke": 1
+  }
+ },
+ {
+  "lib": "Title",
+  "idx": 343,
+  "text": "新建角色",
+  "info": {
+   "size": "(100, 25)",
+   "transparent": false,
+   "fg": "(201, 190, 165)",
+   "bg": "(23, 16, 8)",
+   "font": 13,
+   "stroke": 1
+  }
+ },
+ {
+  "lib": "Title",
+  "idx": 344,
+  "text": "新建角色",
+  "info": {
+   "size": "(100, 25)",
+   "transparent": false,
+   "fg": "(221, 208, 177)",
+   "bg": "(39, 28, 16)",
+   "font": 13,
+   "stroke": 1
+  }
+ },
+ {
+  "lib": "Title",
+  "idx": 345,
+  "text": "新建角色",
+  "info": {
+   "size": "(100, 25)",
+   "transparent": false,
+   "fg": "(145, 123, 93)",
+   "bg": "(13, 8, 3)",
+   "font": 13,
+   "stroke": 1
+  }
+ },
+ {
+  "lib": "Title",
+  "idx": 346,
+  "text": "删除角色",
+  "info": {
+   "size": "(100, 25)",
+   "transparent": false,
+   "fg": "(203, 194, 173)",
+   "bg": "(22, 15, 8)",
+   "font": 13,
+   "stroke": 1
+  }
+ },
+ {
+  "lib": "Title",
+  "idx": 347,
+  "text": "删除角色",
+  "info": {
+   "size": "(100, 25)",
+   "transparent": false,
+   "fg": "(221, 210, 180)",
+   "bg": "(38, 27, 16)",
+   "font": 13,
+   "stroke": 1
+  }
+ },
+ {
+  "lib": "Title",
+  "idx": 348,
+  "text": "删除角色",
+  "info": {
+   "size": "(100, 25)",
+   "transparent": false,
+   "fg": "(145, 124, 94)",
+   "bg": "(13, 8, 3)",
+   "font": 13,
+   "stroke": 1
+  }
+ },
+ {
+  "lib": "Title",
+  "idx": 349,
+  "text": "制作名单",
+  "info": {
+   "size": "(100, 25)",
+   "transparent": false,
+   "fg": "(200, 188, 161)",
+   "bg": "(25, 17, 8)",
+   "font": 13,
+   "stroke": 1
+  }
+ },
+ {
+  "lib": "Title",
+  "idx": 350,
+  "text": "制作名单",
+  "info": {
+   "size": "(100, 25)",
+   "transparent": false,
+   "fg": "(221, 207, 174)",
+   "bg": "(41, 29, 17)",
+   "font": 13,
+   "stroke": 1
+  }
+ },
+ {
+  "lib": "Title",
+  "idx": 351,
+  "text": "制作名单",
+  "info": {
+   "size": "(100, 25)",
+   "transparent": false,
+   "fg": "(146, 123, 92)",
+   "bg": "(14, 8, 4)",
+   "font": 13,
+   "stroke": 1
+  }
+ },
+ {
+  "lib": "Title",
+  "idx": 352,
+  "text": "退出",
+  "info": {
+   "size": "(100, 25)",
+   "transparent": false,
+   "fg": "(197, 181, 148)",
+   "bg": "(30, 19, 9)",
+   "font": 13,
+   "stroke": 1
+  }
+ },
+ {
+  "lib": "Title",
+  "idx": 353,
+  "text": "退出",
+  "info": {
+   "size": "(100, 25)",
+   "transparent": false,
+   "fg": "(219, 204, 168)",
+   "bg": "(45, 32, 19)",
+   "font": 13,
+   "stroke": 1
+  }
+ },
+ {
+  "lib": "Title",
+  "idx": 354,
+  "text": "退出",
+  "info": {
+   "size": "(100, 25)",
+   "transparent": false,
+   "fg": "(144, 121, 88)",
+   "bg": "(16, 9, 4)",
+   "font": 13,
+   "stroke": 1
+  }
+ },
+ {
+  "lib": "Title",
+  "idx": 360,
+  "text": "创建",
+  "info": {
+   "size": "(60, 25)",
+   "transparent": false,
+   "fg": "(204, 195, 175)",
+   "bg": "(22, 16, 9)",
+   "font": 13,
+   "stroke": 1
+  }
+ },
+ {
+  "lib": "Title",
+  "idx": 361,
+  "text": "创建",
+  "info": {
+   "size": "(60, 25)",
+   "transparent": false,
+   "fg": "(222, 211, 182)",
+   "bg": "(38, 27, 16)",
+   "font": 13,
+   "stroke": 1
+  }
+ },
+ {
+  "lib": "Title",
+  "idx": 362,
+  "text": "创建",
+  "info": {
+   "size": "(60, 25)",
+   "transparent": false,
+   "fg": "(145, 125, 95)",
+   "bg": "(12, 7, 3)",
+   "font": 13,
+   "stroke": 1
+  }
+ },
+ {
+  "lib": "Title",
+  "idx": 370,
+  "text": "收取",
+  "info": {
+   "size": "(72, 25)",
+   "transparent": false,
+   "fg": "(204, 186, 158)",
+   "bg": "(38, 26, 13)",
+   "font": 13,
+   "stroke": 1
+  }
+ },
+ {
+  "lib": "Title",
+  "idx": 371,
+  "text": "收取",
+  "info": {
+   "size": "(72, 25)",
+   "transparent": false,
+   "fg": "(221, 209, 176)",
+   "bg": "(48, 34, 19)",
+   "font": 13,
+   "stroke": 1
+  }
+ },
+ {
+  "lib": "Title",
+  "idx": 372,
+  "text": "收取",
+  "info": {
+   "size": "(72, 25)",
+   "transparent": false,
+   "fg": "(176, 152, 120)",
+   "bg": "(26, 16, 8)",
+   "font": 13,
+   "stroke": 1
+  }
+ },
+ {
+  "lib": "Title",
+  "idx": 463,
+  "text": "聊天框",
+  "info": {
+   "size": "(72, 24)",
+   "transparent": false,
+   "fg": "(217, 218, 192)",
+   "bg": "(51, 36, 20)",
+   "font": 13,
+   "stroke": 1
+  }
+ },
+ {
+  "lib": "Title",
+  "idx": 464,
+  "text": "过滤",
+  "info": {
+   "size": "(72, 24)",
+   "transparent": false,
+   "fg": "(201, 197, 182)",
+   "bg": "(21, 17, 10)",
+   "font": 13,
+   "stroke": 1
+  }
+ },
+ {
+  "lib": "Title",
+  "idx": 465,
+  "text": "过滤",
+  "info": {
+   "size": "(72, 24)",
+   "transparent": false,
+   "fg": "(208, 206, 178)",
+   "bg": "(56, 39, 20)",
+   "font": 13,
+   "stroke": 1
+  }
+ },
+ {
+  "lib": "Title",
+  "idx": 470,
+  "text": "一",
+  "info": {
+   "size": "(60, 25)",
+   "transparent": false,
+   "fg": "(168, 165, 156)",
+   "bg": "(29, 26, 26)",
+   "font": 13,
+   "stroke": 1
+  }
+ },
+ {
+  "lib": "Title",
+  "idx": 471,
+  "text": "一",
+  "info": {
+   "size": "(60, 25)",
+   "transparent": false,
+   "fg": "(198, 185, 154)",
+   "bg": "(30, 21, 12)",
+   "font": 13,
+   "stroke": 1
+  }
+ },
+ {
+  "lib": "Title",
+  "idx": 472,
+  "text": "一",
+  "info": {
+   "size": "(60, 25)",
+   "transparent": false,
+   "fg": "(220, 205, 171)",
+   "bg": "(44, 32, 20)",
+   "font": 13,
+   "stroke": 1
+  }
+ },
+ {
+  "lib": "Title",
+  "idx": 473,
+  "text": "二",
+  "info": {
+   "size": "(60, 25)",
+   "transparent": false,
+   "fg": "(168, 165, 156)",
+   "bg": "(29, 26, 26)",
+   "font": 13,
+   "stroke": 1
+  }
+ },
+ {
+  "lib": "Title",
+  "idx": 474,
+  "text": "二",
+  "info": {
+   "size": "(60, 25)",
+   "transparent": false,
+   "fg": "(198, 186, 158)",
+   "bg": "(30, 21, 12)",
+   "font": 13,
+   "stroke": 1
+  }
+ },
+ {
+  "lib": "Title",
+  "idx": 475,
+  "text": "二",
+  "info": {
+   "size": "(60, 25)",
+   "transparent": false,
+   "fg": "(220, 205, 172)",
+   "bg": "(45, 32, 20)",
+   "font": 13,
+   "stroke": 1
+  }
+ },
+ {
+  "lib": "Title",
+  "idx": 480,
+  "text": "查找",
+  "info": {
+   "size": "(48, 25)",
+   "transparent": false,
+   "fg": "(200, 190, 167)",
+   "bg": "(25, 17, 10)",
+   "font": 13,
+   "stroke": 1
+  }
+ },
+ {
+  "lib": "Title",
+  "idx": 481,
+  "text": "查找",
+  "info": {
+   "size": "(48, 25)",
+   "transparent": false,
+   "fg": "(220, 208, 177)",
+   "bg": "(40, 29, 19)",
+   "font": 13,
+   "stroke": 1
+  }
+ },
+ {
+  "lib": "Title",
+  "idx": 482,
+  "text": "查找",
+  "info": {
+   "size": "(48, 25)",
+   "transparent": false,
+   "fg": "(146, 124, 93)",
+   "bg": "(12, 7, 3)",
+   "font": 13,
+   "stroke": 1
+  }
+ },
+ {
+  "lib": "Title",
+  "idx": 500,
+  "text": "角色",
+  "info": {
+   "size": "(64, 20)",
+   "transparent": false,
+   "fg": "(202, 200, 171)",
+   "bg": "(57, 40, 21)",
+   "font": 11,
+   "stroke": 1
+  }
+ },
+ {
+  "lib": "Title",
+  "idx": 501,
+  "text": "属性一",
+  "info": {
+   "size": "(64, 20)",
+   "transparent": false,
+   "fg": "(204, 202, 174)",
+   "bg": "(48, 34, 20)",
+   "font": 11,
+   "stroke": 1
+  }
+ },
+ {
+  "lib": "Title",
+  "idx": 502,
+  "text": "属性二",
+  "info": {
+   "size": "(64, 20)",
+   "transparent": false,
+   "fg": "(206, 205, 177)",
+   "bg": "(46, 33, 19)",
+   "font": 11,
+   "stroke": 1
+  }
+ },
+ {
+  "lib": "Title",
+  "idx": 503,
+  "text": "技能",
+  "info": {
+   "size": "(64, 20)",
+   "transparent": false,
+   "fg": "(205, 202, 173)",
+   "bg": "(48, 34, 20)",
+   "font": 11,
+   "stroke": 1
+  }
+ },
+ {
+  "lib": "Title",
+  "idx": 516,
+  "text": "等级",
+  "info": {
+   "size": "(24, 9)",
+   "transparent": true,
+   "fg": "(200, 173, 116)",
+   "bg": "(33, 28, 23)",
+   "font": 8,
+   "stroke": 0
+  }
+ },
+ {
+  "lib": "Title",
+  "idx": 517,
+  "text": "经验",
+  "info": {
+   "size": "(24, 11)",
+   "transparent": true,
+   "fg": "(198, 172, 117)",
+   "bg": "(32, 26, 21)",
+   "font": 9,
+   "stroke": 0
+  }
+ },
+ {
+  "lib": "Title",
+  "idx": 520,
+  "text": "确定",
+  "info": {
+   "size": "(48, 25)",
+   "transparent": false,
+   "fg": "(199, 189, 167)",
+   "bg": "(24, 17, 9)",
+   "font": 13,
+   "stroke": 1
+  }
+ },
+ {
+  "lib": "Title",
+  "idx": 521,
+  "text": "确定",
+  "info": {
+   "size": "(48, 25)",
+   "transparent": false,
+   "fg": "(219, 207, 177)",
+   "bg": "(40, 29, 18)",
+   "font": 13,
+   "stroke": 1
+  }
+ },
+ {
+  "lib": "Title",
+  "idx": 522,
+  "text": "确定",
+  "info": {
+   "size": "(48, 25)",
+   "transparent": false,
+   "fg": "(146, 123, 92)",
+   "bg": "(12, 7, 3)",
+   "font": 13,
+   "stroke": 1
+  }
+ },
+ {
+  "lib": "Title",
+  "idx": 540,
+  "text": "删除",
+  "info": {
+   "size": "(68, 25)",
+   "transparent": false,
+   "fg": "(202, 192, 169)",
+   "bg": "(25, 18, 10)",
+   "font": 13,
+   "stroke": 1
+  }
+ },
+ {
+  "lib": "Title",
+  "idx": 541,
+  "text": "删除",
+  "info": {
+   "size": "(68, 25)",
+   "transparent": false,
+   "fg": "(222, 210, 179)",
+   "bg": "(42, 31, 20)",
+   "font": 13,
+   "stroke": 1
+  }
+ },
+ {
+  "lib": "Title",
+  "idx": 542,
+  "text": "删除",
+  "info": {
+   "size": "(68, 25)",
+   "transparent": false,
+   "fg": "(145, 124, 94)",
+   "bg": "(13, 7, 3)",
+   "font": 13,
+   "stroke": 1
+  }
+ },
+ {
+  "lib": "Title",
+  "idx": 560,
+  "text": "生命",
+  "info": {
+   "size": "(60, 25)",
+   "transparent": false,
+   "fg": "(209, 188, 160)",
+   "bg": "(38, 25, 13)",
+   "font": 13,
+   "stroke": 1
+  }
+ },
+ {
+  "lib": "Title",
+  "idx": 561,
+  "text": "生命",
+  "info": {
+   "size": "(60, 25)",
+   "transparent": false,
+   "fg": "(224, 211, 177)",
+   "bg": "(48, 33, 19)",
+   "font": 13,
+   "stroke": 1
+  }
+ },
+ {
+  "lib": "Title",
+  "idx": 562,
+  "text": "生命",
+  "info": {
+   "size": "(60, 25)",
+   "transparent": false,
+   "fg": "(178, 154, 121)",
+   "bg": "(26, 16, 8)",
+   "font": 13,
+   "stroke": 1
+  }
+ },
+ {
+  "lib": "Title",
+  "idx": 563,
+  "text": "魔法",
+  "info": {
+   "size": "(60, 25)",
+   "transparent": false,
+   "fg": "(204, 189, 167)",
+   "bg": "(38, 26, 14)",
+   "font": 13,
+   "stroke": 1
+  }
+ },
+ {
+  "lib": "Title",
+  "idx": 564,
+  "text": "魔法",
+  "info": {
+   "size": "(60, 25)",
+   "transparent": false,
+   "fg": "(223, 210, 183)",
+   "bg": "(48, 34, 20)",
+   "font": 13,
+   "stroke": 1
+  }
+ },
+ {
+  "lib": "Title",
+  "idx": 565,
+  "text": "魔法",
+  "info": {
+   "size": "(60, 25)",
+   "transparent": false,
+   "fg": "(174, 154, 125)",
+   "bg": "(26, 16, 8)",
+   "font": 13,
+   "stroke": 1
+  }
+ },
+ {
+  "lib": "Title",
+  "idx": 570,
+  "text": "改名",
+  "info": {
+   "size": "(92, 25)",
+   "transparent": false,
+   "fg": "(199, 188, 162)",
+   "bg": "(30, 22, 12)",
+   "font": 13,
+   "stroke": 1
+  }
+ },
+ {
+  "lib": "Title",
+  "idx": 571,
+  "text": "改名",
+  "info": {
+   "size": "(92, 25)",
+   "transparent": false,
+   "fg": "(220, 207, 175)",
+   "bg": "(47, 35, 23)",
+   "font": 13,
+   "stroke": 1
+  }
+ },
+ {
+  "lib": "Title",
+  "idx": 572,
+  "text": "改名",
+  "info": {
+   "size": "(92, 25)",
+   "transparent": false,
+   "fg": "(145, 123, 91)",
+   "bg": "(14, 8, 4)",
+   "font": 13,
+   "stroke": 1
+  }
+ },
+ {
+  "lib": "Title",
+  "idx": 576,
+  "text": "召唤",
+  "info": {
+   "size": "(80, 25)",
+   "transparent": false,
+   "fg": "(199, 191, 170)",
+   "bg": "(22, 15, 7)",
+   "font": 13,
+   "stroke": 1
+  }
+ },
+ {
+  "lib": "Title",
+  "idx": 577,
+  "text": "召唤",
+  "info": {
+   "size": "(80, 25)",
+   "transparent": false,
+   "fg": "(220, 208, 177)",
+   "bg": "(38, 26, 16)",
+   "font": 13,
+   "stroke": 1
+  }
+ },
+ {
+  "lib": "Title",
+  "idx": 578,
+  "text": "召唤",
+  "info": {
+   "size": "(80, 25)",
+   "transparent": false,
+   "fg": "(145, 123, 92)",
+   "bg": "(13, 7, 3)",
+   "font": 13,
+   "stroke": 1
+  }
+ },
+ {
+  "lib": "Title",
+  "idx": 586,
+  "text": "保存",
+  "info": {
+   "size": "(48, 25)",
+   "transparent": false,
+   "fg": "(201, 190, 166)",
+   "bg": "(25, 18, 10)",
+   "font": 13,
+   "stroke": 1
+  }
+ },
+ {
+  "lib": "Title",
+  "idx": 587,
+  "text": "保存",
+  "info": {
+   "size": "(48, 25)",
+   "transparent": false,
+   "fg": "(221, 208, 176)",
+   "bg": "(41, 30, 19)",
+   "font": 13,
+   "stroke": 1
+  }
+ },
+ {
+  "lib": "Title",
+  "idx": 588,
+  "text": "保存",
+  "info": {
+   "size": "(48, 25)",
+   "transparent": false,
+   "fg": "(146, 123, 92)",
+   "bg": "(12, 7, 3)",
+   "font": 13,
+   "stroke": 1
+  }
+ },
+ {
+  "lib": "Title",
+  "idx": 590,
+  "text": "取消",
+  "info": {
+   "size": "(48, 25)",
+   "transparent": false,
+   "fg": "(202, 191, 165)",
+   "bg": "(24, 17, 10)",
+   "font": 13,
+   "stroke": 1
+  }
+ },
+ {
+  "lib": "Title",
+  "idx": 591,
+  "text": "取消",
+  "info": {
+   "size": "(48, 25)",
+   "transparent": false,
+   "fg": "(220, 208, 175)",
+   "bg": "(39, 29, 18)",
+   "font": 13,
+   "stroke": 1
+  }
+ },
+ {
+  "lib": "Title",
+  "idx": 592,
+  "text": "取消",
+  "info": {
+   "size": "(48, 25)",
+   "transparent": false,
+   "fg": "(146, 124, 92)",
+   "bg": "(12, 7, 3)",
+   "font": 13,
+   "stroke": 1
+  }
+ },
+ {
+  "lib": "Title",
+  "idx": 607,
+  "text": "发送",
+  "info": {
+   "size": "(76, 25)",
+   "transparent": false,
+   "fg": "(198, 185, 155)",
+   "bg": "(32, 23, 13)",
+   "font": 13,
+   "stroke": 1
+  }
+ },
+ {
+  "lib": "Title",
+  "idx": 608,
+  "text": "发送",
+  "info": {
+   "size": "(76, 25)",
+   "transparent": false,
+   "fg": "(220, 205, 172)",
+   "bg": "(48, 36, 23)",
+   "font": 13,
+   "stroke": 1
+  }
+ },
+ {
+  "lib": "Title",
+  "idx": 609,
+  "text": "发送",
+  "info": {
+   "size": "(76, 25)",
+   "transparent": false,
+   "fg": "(145, 122, 90)",
+   "bg": "(14, 8, 4)",
+   "font": 13,
+   "stroke": 1
+  }
+ },
+ {
+  "lib": "Title",
+  "idx": 616,
+  "text": "分享",
+  "info": {
+   "size": "(76, 25)",
+   "transparent": false,
+   "fg": "(200, 189, 163)",
+   "bg": "(29, 21, 12)",
+   "font": 13,
+   "stroke": 1
+  }
+ },
+ {
+  "lib": "Title",
+  "idx": 617,
+  "text": "分享",
+  "info": {
+   "size": "(76, 25)",
+   "transparent": false,
+   "fg": "(220, 207, 175)",
+   "bg": "(46, 34, 22)",
+   "font": 13,
+   "stroke": 1
+  }
+ },
+ {
+  "lib": "Title",
+  "idx": 618,
+  "text": "分享",
+  "info": {
+   "size": "(76, 25)",
+   "transparent": false,
+   "fg": "(145, 123, 91)",
+   "bg": "(13, 8, 3)",
+   "font": 13,
+   "stroke": 1
+  }
+ },
+ {
+  "lib": "Title",
+  "idx": 676,
+  "text": "集齐印章解锁",
+  "info": {
+   "size": "(144, 36)",
+   "transparent": false,
+   "fg": "(158, 154, 150)",
+   "bg": "(30, 22, 18)",
+   "font": 19,
+   "stroke": 1
+  }
+ },
+ {
+  "lib": "Title",
+  "idx": 680,
+  "text": "收取",
+  "info": {
+   "size": "(72, 25)",
+   "transparent": false,
+   "fg": "(202, 192, 169)",
+   "bg": "(26, 20, 13)",
+   "font": 13,
+   "stroke": 1
+  }
+ },
+ {
+  "lib": "Title",
+  "idx": 681,
+  "text": "收取",
+  "info": {
+   "size": "(72, 25)",
+   "transparent": false,
+   "fg": "(222, 209, 178)",
+   "bg": "(37, 26, 15)",
+   "font": 13,
+   "stroke": 1
+  }
+ },
+ {
+  "lib": "Title",
+  "idx": 682,
+  "text": "收取",
+  "info": {
+   "size": "(72, 25)",
+   "transparent": false,
+   "fg": "(146, 124, 93)",
+   "bg": "(13, 7, 3)",
+   "font": 13,
+   "stroke": 1
+  }
+ },
+ {
+  "lib": "Title",
+  "idx": 686,
+  "text": "锁定",
+  "info": {
+   "size": "(72, 25)",
+   "transparent": false,
+   "fg": "(198, 185, 156)",
+   "bg": "(33, 25, 17)",
+   "font": 13,
+   "stroke": 1
+  }
+ },
+ {
+  "lib": "Title",
+  "idx": 687,
+  "text": "锁定",
+  "info": {
+   "size": "(72, 25)",
+   "transparent": false,
+   "fg": "(219, 205, 171)",
+   "bg": "(41, 29, 17)",
+   "font": 13,
+   "stroke": 1
+  }
+ },
+ {
+  "lib": "Title",
+  "idx": 688,
+  "text": "锁定",
+  "info": {
+   "size": "(72, 25)",
+   "transparent": false,
+   "fg": "(145, 122, 89)",
+   "bg": "(14, 8, 4)",
+   "font": 13,
+   "stroke": 1
+  }
+ },
+ {
+  "lib": "Title",
+  "idx": 700,
+  "text": "出售",
+  "info": {
+   "size": "(52, 25)",
+   "transparent": false,
+   "fg": "(198, 185, 156)",
+   "bg": "(26, 19, 11)",
+   "font": 13,
+   "stroke": 1
+  }
+ },
+ {
+  "lib": "Title",
+  "idx": 701,
+  "text": "出售",
+  "info": {
+   "size": "(52, 25)",
+   "transparent": false,
+   "fg": "(221, 206, 172)",
+   "bg": "(42, 31, 20)",
+   "font": 13,
+   "stroke": 1
+  }
+ },
+ {
+  "lib": "Title",
+  "idx": 702,
+  "text": "出售",
+  "info": {
+   "size": "(52, 25)",
+   "transparent": false,
+   "fg": "(145, 122, 90)",
+   "bg": "(13, 7, 3)",
+   "font": 13,
+   "stroke": 1
+  }
+ },
+ {
+  "lib": "Title",
+  "idx": 703,
+  "text": "购买",
+  "info": {
+   "size": "(84, 25)",
+   "transparent": false,
+   "fg": "(196, 182, 148)",
+   "bg": "(30, 19, 9)",
+   "font": 13,
+   "stroke": 1
+  }
+ },
+ {
+  "lib": "Title",
+  "idx": 704,
+  "text": "购买",
+  "info": {
+   "size": "(84, 25)",
+   "transparent": false,
+   "fg": "(219, 203, 168)",
+   "bg": "(45, 32, 18)",
+   "font": 13,
+   "stroke": 1
+  }
+ },
+ {
+  "lib": "Title",
+  "idx": 705,
+  "text": "购买",
+  "info": {
+   "size": "(84, 25)",
+   "transparent": false,
+   "fg": "(144, 121, 88)",
+   "bg": "(15, 8, 4)",
+   "font": 13,
+   "stroke": 1
+  }
+ },
+ {
+  "lib": "Title",
+  "idx": 712,
+  "text": "觉醒",
+  "info": {
+   "size": "(80, 25)",
+   "transparent": false,
+   "fg": "(200, 189, 165)",
+   "bg": "(23, 15, 8)",
+   "font": 13,
+   "stroke": 1
+  }
+ },
+ {
+  "lib": "Title",
+  "idx": 713,
+  "text": "觉醒",
+  "info": {
+   "size": "(80, 25)",
+   "transparent": false,
+   "fg": "(220, 207, 176)",
+   "bg": "(39, 27, 16)",
+   "font": 13,
+   "stroke": 1
+  }
+ },
+ {
+  "lib": "Title",
+  "idx": 714,
+  "text": "觉醒",
+  "info": {
+   "size": "(80, 25)",
+   "transparent": false,
+   "fg": "(145, 123, 92)",
+   "bg": "(13, 8, 3)",
+   "font": 13,
+   "stroke": 1
+  }
+ },
+ {
+  "lib": "Title",
+  "idx": 738,
+  "text": "物品",
+  "info": {
+   "size": "(72, 24)",
+   "transparent": false,
+   "fg": "(201, 197, 181)",
+   "bg": "(21, 17, 10)",
+   "font": 13,
+   "stroke": 1
+  }
+ },
+ {
+  "lib": "Title",
+  "idx": 739,
+  "text": "任务",
+  "info": {
+   "size": "(72, 24)",
+   "transparent": false,
+   "fg": "(195, 189, 172)",
+   "bg": "(22, 17, 10)",
+   "font": 13,
+   "stroke": 1
+  }
+ },
+ {
+  "lib": "Title",
+  "idx": 743,
+  "text": "仓库一",
+  "info": {
+   "size": "(72, 23)",
+   "transparent": false,
+   "fg": "(201, 197, 169)",
+   "bg": "(41, 29, 17)",
+   "font": 12,
+   "stroke": 1
+  }
+ },
+ {
+  "lib": "Title",
+  "idx": 744,
+  "text": "仓库一",
+  "info": {
+   "size": "(72, 23)",
+   "transparent": false,
+   "fg": "(198, 193, 175)",
+   "bg": "(21, 17, 10)",
+   "font": 12,
+   "stroke": 1
+  }
+ },
+ {
+  "lib": "Title",
+  "idx": 746,
+  "text": "仓库二",
+  "info": {
+   "size": "(72, 23)",
+   "transparent": false,
+   "fg": "(199, 195, 179)",
+   "bg": "(21, 17, 10)",
+   "font": 12,
+   "stroke": 1
+  }
+ },
+ {
+  "lib": "Title",
+  "idx": 751,
+  "text": "全部",
+  "info": {
+   "size": "(28, 24)",
+   "transparent": false,
+   "fg": "(194, 184, 167)",
+   "bg": "(7, 7, 7)",
+   "font": 12,
+   "stroke": 1
+  }
+ },
+ {
+  "lib": "Title",
+  "idx": 752,
+  "text": "全部",
+  "info": {
+   "size": "(28, 24)",
+   "transparent": false,
+   "fg": "(194, 185, 167)",
+   "bg": "(13, 14, 9)",
+   "font": 12,
+   "stroke": 1
+  }
+ },
+ {
+  "lib": "Title",
+  "idx": 753,
+  "text": "全部",
+  "info": {
+   "size": "(28, 24)",
+   "transparent": false,
+   "fg": "(138, 130, 118)",
+   "bg": "(6, 5, 6)",
+   "font": 12,
+   "stroke": 1
+  }
+ },
+ {
+  "lib": "Title",
+  "idx": 770,
+  "text": "全部物品",
+  "info": {
+   "size": "(72, 24)",
+   "transparent": false,
+   "fg": "(199, 196, 182)",
+   "bg": "(21, 17, 10)",
+   "font": 13,
+   "stroke": 1
+  }
+ },
+ {
+  "lib": "Title",
+  "idx": 772,
+  "text": "特价",
+  "info": {
+   "size": "(72, 24)",
+   "transparent": false,
+   "fg": "(193, 186, 167)",
+   "bg": "(22, 17, 10)",
+   "font": 13,
+   "stroke": 1
+  }
+ },
+ {
+  "lib": "Title",
+  "idx": 774,
+  "text": "新品",
+  "info": {
+   "size": "(72, 24)",
+   "transparent": false,
+   "fg": "(186, 180, 159)",
+   "bg": "(23, 17, 11)",
+   "font": 13,
+   "stroke": 1
+  }
+ },
+ {
+  "lib": "Title",
+  "idx": 776,
+  "text": "热销",
+  "info": {
+   "size": "(72, 24)",
+   "transparent": false,
+   "fg": "(187, 181, 159)",
+   "bg": "(22, 17, 11)",
+   "font": 13,
+   "stroke": 1
+  }
+ },
+ {
+  "lib": "Title",
+  "idx": 778,
+  "text": "购买",
+  "info": {
+   "size": "(44, 20)",
+   "transparent": false,
+   "fg": "(207, 200, 184)",
+   "bg": "(25, 19, 10)",
+   "font": 11,
+   "stroke": 1
+  }
+ },
+ {
+  "lib": "Title",
+  "idx": 779,
+  "text": "购买",
+  "info": {
+   "size": "(44, 20)",
+   "transparent": false,
+   "fg": "(222, 214, 189)",
+   "bg": "(43, 32, 18)",
+   "font": 11,
+   "stroke": 1
+  }
+ },
+ {
+  "lib": "Title",
+  "idx": 780,
+  "text": "购买",
+  "info": {
+   "size": "(44, 20)",
+   "transparent": false,
+   "fg": "(143, 126, 99)",
+   "bg": "(17, 13, 6)",
+   "font": 11,
+   "stroke": 1
+  }
+ },
+ {
+  "lib": "Title",
+  "idx": 781,
+  "text": "查看",
+  "info": {
+   "size": "(44, 20)",
+   "transparent": false,
+   "fg": "(207, 205, 196)",
+   "bg": "(23, 18, 9)",
+   "font": 11,
+   "stroke": 1
+  }
+ },
+ {
+  "lib": "Title",
+  "idx": 782,
+  "text": "查看",
+  "info": {
+   "size": "(44, 20)",
+   "transparent": false,
+   "fg": "(223, 216, 193)",
+   "bg": "(42, 31, 18)",
+   "font": 11,
+   "stroke": 1
+  }
+ },
+ {
+  "lib": "Title",
+  "idx": 783,
+  "text": "查看",
+  "info": {
+   "size": "(44, 20)",
+   "transparent": false,
+   "fg": "(144, 128, 102)",
+   "bg": "(16, 13, 6)",
+   "font": 11,
+   "stroke": 1
+  }
+ },
+ {
+  "lib": "Title",
+  "idx": 790,
+  "text": "寄售",
+  "info": {
+   "size": "(92, 21)",
+   "transparent": false,
+   "fg": "(201, 197, 168)",
+   "bg": "(59, 42, 21)",
+   "font": 11,
+   "stroke": 1
+  }
+ },
+ {
+  "lib": "Title",
+  "idx": 791,
+  "text": "寄售",
+  "info": {
+   "size": "(92, 21)",
+   "transparent": false,
+   "fg": "(195, 189, 170)",
+   "bg": "(22, 17, 11)",
+   "font": 11,
+   "stroke": 1
+  }
+ },
+ {
+  "lib": "Title",
+  "idx": 816,
+  "text": "拍卖",
+  "info": {
+   "size": "(92, 21)",
+   "transparent": false,
+   "fg": "(201, 197, 166)",
+   "bg": "(59, 42, 21)",
+   "font": 11,
+   "stroke": 1
+  }
+ },
+ {
+  "lib": "Title",
+  "idx": 817,
+  "text": "拍卖",
+  "info": {
+   "size": "(92, 21)",
+   "transparent": false,
+   "fg": "(195, 188, 169)",
+   "bg": "(22, 17, 11)",
+   "font": 11,
+   "stroke": 1
+  }
+ },
+ {
+  "lib": "Title",
+  "idx": 818,
+  "text": "商城",
+  "info": {
+   "size": "(92, 21)",
+   "transparent": false,
+   "fg": "(208, 207, 176)",
+   "bg": "(56, 40, 21)",
+   "font": 11,
+   "stroke": 1
+  }
+ },
+ {
+  "lib": "Title",
+  "idx": 819,
+  "text": "商城",
+  "info": {
+   "size": "(92, 21)",
+   "transparent": false,
+   "fg": "(201, 197, 180)",
+   "bg": "(22, 17, 10)",
+   "font": 11,
+   "stroke": 1
+  }
+ },
+ {
+  "lib": "Title",
+  "idx": 821,
+  "text": "前往",
+  "info": {
+   "size": "(72, 25)",
+   "transparent": false,
+   "fg": "(192, 178, 144)",
+   "bg": "(28, 18, 9)",
+   "font": 13,
+   "stroke": 1
+  }
+ },
+ {
+  "lib": "Title",
+  "idx": 822,
+  "text": "前往",
+  "info": {
+   "size": "(72, 25)",
+   "transparent": false,
+   "fg": "(217, 201, 163)",
+   "bg": "(43, 31, 18)",
+   "font": 13,
+   "stroke": 1
+  }
+ },
+ {
+  "lib": "Title",
+  "idx": 823,
+  "text": "前往",
+  "info": {
+   "size": "(72, 25)",
+   "transparent": false,
+   "fg": "(147, 121, 86)",
+   "bg": "(16, 9, 4)",
+   "font": 13,
+   "stroke": 1
+  }
+ },
+ {
+  "lib": "Title",
+  "idx": 824,
+  "text": "位置",
+  "info": {
+   "size": "(80, 25)",
+   "transparent": false,
+   "fg": "(193, 180, 149)",
+   "bg": "(30, 21, 13)",
+   "font": 13,
+   "stroke": 1
+  }
+ },
+ {
+  "lib": "Title",
+  "idx": 825,
+  "text": "位置",
+  "info": {
+   "size": "(80, 25)",
+   "transparent": false,
+   "fg": "(216, 200, 164)",
+   "bg": "(36, 28, 19)",
+   "font": 13,
+   "stroke": 1
+  }
+ },
+ {
+  "lib": "Title",
+  "idx": 826,
+  "text": "位置",
+  "info": {
+   "size": "(80, 25)",
+   "transparent": false,
+   "fg": "(144, 120, 87)",
+   "bg": "(14, 7, 3)",
+   "font": 13,
+   "stroke": 1
+  }
+ },
+ {
+  "lib": "Title",
+  "idx": 827,
+  "text": "世界地图",
+  "info": {
+   "size": "(80, 25)",
+   "transparent": false,
+   "fg": "(194, 182, 154)",
+   "bg": "(28, 20, 11)",
+   "font": 13,
+   "stroke": 1
+  }
+ },
+ {
+  "lib": "Title",
+  "idx": 828,
+  "text": "世界地图",
+  "info": {
+   "size": "(80, 25)",
+   "transparent": false,
+   "fg": "(217, 201, 166)",
+   "bg": "(33, 26, 17)",
+   "font": 13,
+   "stroke": 1
+  }
+ },
+ {
+  "lib": "Title",
+  "idx": 829,
+  "text": "世界地图",
+  "info": {
+   "size": "(80, 25)",
+   "transparent": false,
+   "fg": "(144, 120, 87)",
+   "bg": "(13, 7, 3)",
+   "font": 13,
+   "stroke": 1
+  }
+ },
+ {
+  "lib": "Title",
+  "idx": 850,
+  "text": "旧",
+  "info": {
+   "size": "(36, 17)",
+   "transparent": false,
+   "fg": "(199, 185, 159)",
+   "bg": "(56, 39, 22)",
+   "font": 9,
+   "stroke": 0
+  }
+ },
+ {
+  "lib": "Title",
+  "idx": 853,
+  "text": "新",
+  "info": {
+   "size": "(36, 17)",
+   "transparent": false,
+   "fg": "(200, 184, 157)",
+   "bg": "(55, 38, 22)",
+   "font": 9,
+   "stroke": 0
+  }
+ },
+ {
+  "lib": "Prguse",
+  "idx": 79,
+  "text": "测试模式",
+  "info": {
+   "size": "(100, 117)",
+   "transparent": false,
+   "fg": "(255, 255, 255)",
+   "bg": "(217, 98, 1)",
+   "font": 24,
+   "stroke": 2
+  }
+ },
+ {
+  "lib": "Prguse",
+  "idx": 940,
+  "text": "加载中...",
+  "info": {
+   "size": "(92, 20)",
+   "transparent": true,
+   "fg": "(147, 174, 183)",
+   "bg": "(14, 27, 50)",
+   "font": 17,
+   "stroke": 1
+  }
+ }
+]

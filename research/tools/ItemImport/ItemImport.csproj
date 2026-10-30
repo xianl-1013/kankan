@@ -1,0 +1,18 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net8.0-windows</TargetFramework>
+    <Nullable>disable</Nullable>
+    <AssemblyName>ItemImport</AssemblyName>
+    <OutputPath>..\..\Crystal\Build\Server\Release\tools\</OutputPath>
+    <AppendTargetFrameworkToOutputPath>false</AppendTargetFrameworkToOutputPath>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Server.Library">
+      <HintPath>C:\Users\sjy\mir2-test\Crystal\Build\Server\Release\Server.Library.dll</HintPath>
+    </Reference>
+    <Reference Include="Shared">
+      <HintPath>C:\Users\sjy\mir2-test\Crystal\Build\Server\Release\Shared.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+</Project>

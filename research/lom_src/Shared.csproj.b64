@@ -1,0 +1,18 @@
+{
+  "name": "Shared.csproj",
+  "path": "Shared/Shared.csproj",
+  "sha": "fce9c30e1546abf5249cf380ba6200245b85fe6e",
+  "size": 961,
+  "url": "https://api.github.com/repos/fluttergo/Lom_mir2_net8ZH/contents/Shared/Shared.csproj?ref=main",
+  "html_url": "https://github.com/fluttergo/Lom_mir2_net8ZH/blob/main/Shared/Shared.csproj",
+  "git_url": "https://api.github.com/repos/fluttergo/Lom_mir2_net8ZH/git/blobs/fce9c30e1546abf5249cf380ba6200245b85fe6e",
+  "download_url": "https://raw.githubusercontent.com/fluttergo/Lom_mir2_net8ZH/main/Shared/Shared.csproj",
+  "type": "file",
+  "content": "PFByb2plY3QgU2RrPSJNaWNyb3NvZnQuTkVULlNkayI+CgogIDxQcm9wZXJ0\neUdyb3VwPgogICAgPFRhcmdldEZyYW1ld29ya3M+bmV0OC4wO25ldDYuMDwv\nVGFyZ2V0RnJhbWV3b3Jrcz4KICAgIDxJbXBsaWNpdFVzaW5ncz5lbmFibGU8\nL0ltcGxpY2l0VXNpbmdzPgogICAgPE51bGxhYmxlPmRpc2FibGU8L051bGxh\nYmxlPgogIDwvUHJvcGVydHlHcm91cD4KCiAgPFByb3BlcnR5R3JvdXAgQ29u\nZGl0aW9uPSInJChUYXJnZXRGcmFtZXdvcmspJz09J25ldDguMCciPgoJPEFw\ncGVuZFRhcmdldEZyYW1ld29ya1RvT3V0cHV0UGF0aD5mYWxzZTwvQXBwZW5k\nVGFyZ2V0RnJhbWV3b3JrVG9PdXRwdXRQYXRoPgoJPEFwcGVuZFJ1bnRpbWVJ\nZGVudGlmaWVyVG9PdXRwdXRQYXRoPmZhbHNlPC9BcHBlbmRSdW50aW1lSWRl\nbnRpZmllclRvT3V0cHV0UGF0aD4KICA8L1Byb3BlcnR5R3JvdXA+CgogIDxQ\ncm9wZXJ0eUdyb3VwIENvbmRpdGlvbj0iJyQoVGFyZ2V0RnJhbWV3b3JrKSc9\nPSduZXQ2LjAnIj4KICAgIDxBcHBlbmRUYXJnZXRGcmFtZXdvcmtUb091dHB1\ndFBhdGg+dHJ1ZTwvQXBwZW5kVGFyZ2V0RnJhbWV3b3JrVG9PdXRwdXRQYXRo\nPgogICAgPEFwcGVuZFJ1bnRpbWVJZGVudGlmaWVyVG9PdXRwdXRQYXRoPmZh\nbHNlPC9BcHBlbmRSdW50aW1lSWRlbnRpZmllclRvT3V0cHV0UGF0aD4KICA8\nL1Byb3BlcnR5R3JvdXA+CgogIDxQcm9wZXJ0eUdyb3VwIENvbmRpdGlvbj0i\nJyQoQ29uZmlndXJhdGlvbil8JChQbGF0Zm9ybSknPT0nRGVidWd8QW55Q1BV\nJyI+CiAgICA8Tm9XYXJuPjE3MDE7MTcwMjwvTm9XYXJuPgogIDwvUHJvcGVy\ndHlHcm91cD4KCiAgPFByb3BlcnR5R3JvdXAgQ29uZGl0aW9uPSInJChDb25m\naWd1cmF0aW9uKXwkKFBsYXRmb3JtKSc9PSdSZWxlYXNlfEFueUNQVSciPgog\nICAgPE5vV2Fybj4xNzAxOzE3MDI8L05vV2Fybj4KICA8L1Byb3BlcnR5R3Jv\ndXA+Cgo8L1Byb2plY3Q+Cg==\n",
+  "encoding": "base64",
+  "_links": {
+    "self": "https://api.github.com/repos/fluttergo/Lom_mir2_net8ZH/contents/Shared/Shared.csproj?ref=main",
+    "git": "https://api.github.com/repos/fluttergo/Lom_mir2_net8ZH/git/blobs/fce9c30e1546abf5249cf380ba6200245b85fe6e",
+    "html": "https://github.com/fluttergo/Lom_mir2_net8ZH/blob/main/Shared/Shared.csproj"
+  }
+}

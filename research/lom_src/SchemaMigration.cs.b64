@@ -1,0 +1,18 @@
+{
+  "name": "SchemaMigration.cs",
+  "path": "Server/Persistence/Sql/SchemaMigration.cs",
+  "sha": "03b3aa91d2f5645be0e7fd4a4c23ef12a82e5f6f",
+  "size": 810,
+  "url": "https://api.github.com/repos/fluttergo/Lom_mir2_net8ZH/contents/Server/Persistence/Sql/SchemaMigration.cs?ref=main",
+  "html_url": "https://github.com/fluttergo/Lom_mir2_net8ZH/blob/main/Server/Persistence/Sql/SchemaMigration.cs",
+  "git_url": "https://api.github.com/repos/fluttergo/Lom_mir2_net8ZH/git/blobs/03b3aa91d2f5645be0e7fd4a4c23ef12a82e5f6f",
+  "download_url": "https://raw.githubusercontent.com/fluttergo/Lom_mir2_net8ZH/main/Server/Persistence/Sql/SchemaMigration.cs",
+  "type": "file",
+  "content": "bmFtZXNwYWNlIFNlcnZlci5QZXJzaXN0ZW5jZS5TcWwKewogICAgcHVibGlj\nIHNlYWxlZCBjbGFzcyBTY2hlbWFNaWdyYXRpb24KICAgIHsKICAgICAgICBw\ndWJsaWMgaW50IFZlcnNpb24geyBnZXQ7IH0KICAgICAgICBwdWJsaWMgc3Ry\naW5nIERlc2NyaXB0aW9uIHsgZ2V0OyB9CiAgICAgICAgcHVibGljIElSZWFk\nT25seUxpc3Q8c3RyaW5nPiBTdGF0ZW1lbnRzIHsgZ2V0OyB9CgogICAgICAg\nIHB1YmxpYyBTY2hlbWFNaWdyYXRpb24oaW50IHZlcnNpb24sIHN0cmluZyBk\nZXNjcmlwdGlvbiwgSVJlYWRPbmx5TGlzdDxzdHJpbmc+IHN0YXRlbWVudHMp\nCiAgICAgICAgewogICAgICAgICAgICBpZiAodmVyc2lvbiA8PSAwKSB0aHJv\ndyBuZXcgQXJndW1lbnRPdXRPZlJhbmdlRXhjZXB0aW9uKG5hbWVvZih2ZXJz\naW9uKSk7CiAgICAgICAgICAgIGlmIChzdHJpbmcuSXNOdWxsT3JXaGl0ZVNw\nYWNlKGRlc2NyaXB0aW9uKSkgdGhyb3cgbmV3IEFyZ3VtZW50RXhjZXB0aW9u\nKCLmj4/ov7DkuI3og73kuLrnqbrjgIIiLCBuYW1lb2YoZGVzY3JpcHRpb24p\nKTsKICAgICAgICAgICAgaWYgKHN0YXRlbWVudHMgPT0gbnVsbCB8fCBzdGF0\nZW1lbnRzLkNvdW50ID09IDApIHRocm93IG5ldyBBcmd1bWVudEV4Y2VwdGlv\nbigiU3RhdGVtZW50cyDkuI3og73kuLrnqbrjgIIiLCBuYW1lb2Yoc3RhdGVt\nZW50cykpOwoKICAgICAgICAgICAgVmVyc2lvbiA9IHZlcnNpb247CiAgICAg\nICAgICAgIERlc2NyaXB0aW9uID0gZGVzY3JpcHRpb247CiAgICAgICAgICAg\nIFN0YXRlbWVudHMgPSBzdGF0ZW1lbnRzOwogICAgICAgIH0KICAgIH0KfQoK\n",
+  "encoding": "base64",
+  "_links": {
+    "self": "https://api.github.com/repos/fluttergo/Lom_mir2_net8ZH/contents/Server/Persistence/Sql/SchemaMigration.cs?ref=main",
+    "git": "https://api.github.com/repos/fluttergo/Lom_mir2_net8ZH/git/blobs/03b3aa91d2f5645be0e7fd4a4c23ef12a82e5f6f",
+    "html": "https://github.com/fluttergo/Lom_mir2_net8ZH/blob/main/Server/Persistence/Sql/SchemaMigration.cs"
+  }
+}

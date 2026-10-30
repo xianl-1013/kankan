@@ -1,0 +1,2037 @@
+{
+ "type": "Scene",
+ "props": {
+  "width": 1136,
+  "runtime": "script/Scene/GameMainScene/GameMain_UI/BotbarUI_PC.js",
+  "height": 640,
+  "x": 0,
+  "y": 0
+ },
+ "compId": 2,
+ "child": [
+  {
+   "type": "Image",
+   "props": {
+    "width": 750,
+    "var": "img_middle",
+    "skin": "data/dev/res/private/main-win32/00000056.png",
+    "sizeGrid": "34,42,29,45,0",
+    "hitTestPrior": false,
+    "height": 156,
+    "bottom": 0,
+    "centerX": 0
+   },
+   "compId": 68,
+   "child": [
+    {
+     "type": "Box",
+     "props": {
+      "y": 0,
+      "var": "box_top",
+      "right": 0,
+      "mouseThrough": true,
+      "left": 0,
+      "height": 25
+     },
+     "compId": 268
+    },
+    {
+     "type": "Box",
+     "props": {
+      "y": 0,
+      "var": "box_drag",
+      "right": 0,
+      "left": 0,
+      "height": 25
+     },
+     "compId": 209
+    },
+    {
+     "type": "Panel",
+     "props": {
+      "var": "pl_chat",
+      "top": 27,
+      "runtime": "script/Scene/GameMainScene/ChatUI/ChatPanel.js",
+      "right": 14,
+      "left": 14,
+      "bottom": 22
+     },
+     "compId": 62
+    },
+    {
+     "type": "VBox",
+     "props": {
+      "y": 28,
+      "var": "vBox_notice",
+      "right": 14,
+      "left": 14,
+      "hitTestPrior": false,
+      "height": 0
+     },
+     "compId": 63
+    },
+    {
+     "type": "Box",
+     "props": {
+      "y": 10,
+      "x": 18,
+      "width": 34,
+      "var": "btn_map",
+      "runtime": "script/Scene/Public/StateButton.js",
+      "height": 18
+     },
+     "compId": 75,
+     "child": [
+      {
+       "type": "Image",
+       "props": {
+        "y": 0,
+        "x": 0,
+        "skin": "data/dev/res/private/main-win32/1900011009.png",
+        "name": "up"
+       },
+       "compId": 76
+      },
+      {
+       "type": "Image",
+       "props": {
+        "y": 0,
+        "x": 0,
+        "skin": "data/dev/res/private/main-win32/1900011010.png",
+        "name": "down"
+       },
+       "compId": 77
+      }
+     ]
+    },
+    {
+     "type": "Box",
+     "props": {
+      "y": 10,
+      "x": 52,
+      "width": 34,
+      "var": "btn_trade",
+      "runtime": "script/Scene/Public/StateButton.js",
+      "height": 18
+     },
+     "compId": 201,
+     "child": [
+      {
+       "type": "Image",
+       "props": {
+        "y": 0,
+        "x": 0,
+        "skin": "data/dev/res/private/main-win32/1900011011.png",
+        "name": "up"
+       },
+       "compId": 202
+      },
+      {
+       "type": "Image",
+       "props": {
+        "y": 0,
+        "x": 0,
+        "skin": "data/dev/res/private/main-win32/1900011012.png",
+        "name": "down"
+       },
+       "compId": 203
+      }
+     ]
+    },
+    {
+     "type": "Box",
+     "props": {
+      "y": 10,
+      "x": 86,
+      "width": 34,
+      "var": "btn_guild",
+      "runtime": "script/Scene/Public/StateButton.js",
+      "height": 18
+     },
+     "compId": 78,
+     "child": [
+      {
+       "type": "Image",
+       "props": {
+        "y": 0,
+        "x": 0,
+        "skin": "data/dev/res/private/main-win32/1900011015.png",
+        "name": "up"
+       },
+       "compId": 79
+      },
+      {
+       "type": "Image",
+       "props": {
+        "y": 0,
+        "x": 0,
+        "skin": "data/dev/res/private/main-win32/1900011016.png",
+        "name": "down"
+       },
+       "compId": 80
+      }
+     ]
+    },
+    {
+     "type": "Box",
+     "props": {
+      "y": 10,
+      "x": 120,
+      "width": 34,
+      "var": "btn_near",
+      "runtime": "script/Scene/Public/StateButton.js",
+      "height": 18
+     },
+     "compId": 81,
+     "child": [
+      {
+       "type": "Image",
+       "props": {
+        "y": 0,
+        "x": 0,
+        "skin": "data/dev/res/private/main-win32/1900011013.png",
+        "name": "up"
+       },
+       "compId": 82
+      },
+      {
+       "type": "Image",
+       "props": {
+        "y": 0,
+        "x": 0,
+        "skin": "data/dev/res/private/main-win32/1900011014.png",
+        "name": "down"
+       },
+       "compId": 83
+      }
+     ]
+    },
+    {
+     "type": "Box",
+     "props": {
+      "y": 9,
+      "x": 160,
+      "width": 34,
+      "var": "btn_rank",
+      "runtime": "script/Scene/Public/StateButton.js",
+      "height": 18,
+      "visible": false
+     },
+     "compId": 84,
+     "child": [
+      {
+       "type": "Image",
+       "props": {
+        "y": 0,
+        "x": 0,
+        "skin": "data/dev/res/private/main-win32/1900011027.png",
+        "name": "up"
+       },
+       "compId": 85
+      },
+      {
+       "type": "Image",
+       "props": {
+        "y": 0,
+        "x": 0,
+        "skin": "data/dev/res/private/main-win32/1900011028.png",
+        "name": "down"
+       },
+       "compId": 86
+      }
+     ]
+    },
+    {
+     "type": "Box",
+     "props": {
+      "y": 9,
+      "x": 154,
+      "width": 34,
+      "var": "btn_private",
+      "runtime": "script/Scene/Public/StateButton.js",
+      "height": 18
+     },
+     "compId": 252,
+     "child": [
+      {
+       "type": "Image",
+       "props": {
+        "y": 0,
+        "x": 0,
+        "skin": "data/dev/res/private/main-win32/1900011029.png",
+        "name": "up"
+       },
+       "compId": 253
+      },
+      {
+       "type": "Image",
+       "props": {
+        "y": 0,
+        "x": 0,
+        "skin": "data/dev/res/private/main-win32/1900011030.png",
+        "name": "down"
+       },
+       "compId": 254
+      }
+     ]
+    },
+    {
+     "type": "Box",
+     "props": {
+      "y": 10,
+      "x": 153,
+      "width": 27,
+      "var": "btn_rein",
+      "runtime": "script/Scene/Public/StateButton.js",
+      "height": 13,
+      "visible": false
+     },
+     "compId": 172,
+     "child": [
+      {
+       "type": "Image",
+       "props": {
+        "y": 0,
+        "x": 0,
+        "skin": "data/dev/res/private/main-win32/1900011003.png",
+        "name": "up"
+       },
+       "compId": 173
+      },
+      {
+       "type": "Image",
+       "props": {
+        "y": 0,
+        "x": 0,
+        "skin": "data/dev/res/private/main-win32/1900011004.png",
+        "name": "down"
+       },
+       "compId": 174
+      }
+     ]
+    },
+    {
+     "type": "Box",
+     "props": {
+      "y": 10,
+      "width": 27,
+      "var": "btn_out",
+      "runtime": "script/Scene/Public/StateButton.js",
+      "right": 42,
+      "height": 13
+     },
+     "compId": 88,
+     "child": [
+      {
+       "type": "Image",
+       "props": {
+        "y": 0,
+        "x": 0,
+        "skin": "data/dev/res/private/main-win32/1900011017.png",
+        "name": "up"
+       },
+       "compId": 89
+      },
+      {
+       "type": "Image",
+       "props": {
+        "y": 0,
+        "x": 0,
+        "skin": "data/dev/res/private/main-win32/1900011018.png",
+        "name": "down"
+       },
+       "compId": 90
+      }
+     ]
+    },
+    {
+     "type": "Box",
+     "props": {
+      "y": 10,
+      "width": 27,
+      "var": "btn_exit",
+      "runtime": "script/Scene/Public/StateButton.js",
+      "right": 15,
+      "height": 13
+     },
+     "compId": 91,
+     "child": [
+      {
+       "type": "Image",
+       "props": {
+        "y": 0,
+        "x": 0,
+        "skin": "data/dev/res/private/main-win32/1900011019.png",
+        "name": "up"
+       },
+       "compId": 92
+      },
+      {
+       "type": "Image",
+       "props": {
+        "y": 0,
+        "x": 0,
+        "skin": "data/dev/res/private/main-win32/1900011020.png",
+        "name": "down"
+       },
+       "compId": 93
+      }
+     ]
+    },
+    {
+     "type": "Box",
+     "props": {
+      "width": 27,
+      "visible": false,
+      "var": "btn_chatUp",
+      "runtime": "script/Scene/Public/TabButton.js",
+      "right": 55,
+      "height": 13,
+      "bottom": 8
+     },
+     "compId": 258,
+     "child": [
+      {
+       "type": "Image",
+       "props": {
+        "y": 0,
+        "x": 0,
+        "skin": "data/dev/res/private/main-win32/1900011019.png",
+        "name": "up"
+       },
+       "compId": 259
+      },
+      {
+       "type": "Image",
+       "props": {
+        "y": 0,
+        "x": 0,
+        "skin": "data/dev/res/private/main-win32/1900011020.png",
+        "name": "down"
+       },
+       "compId": 260
+      }
+     ]
+    },
+    {
+     "type": "Box",
+     "props": {
+      "right": 14,
+      "left": 14,
+      "height": 14,
+      "bottom": 6
+     },
+     "compId": 117,
+     "child": [
+      {
+       "type": "Label",
+       "props": {
+        "y": 1,
+        "x": 2,
+        "var": "lab_private",
+        "underline": true,
+        "text": "对XXX说:",
+        "stroke": 1,
+        "fontSize": 12,
+        "color": "#d9c31f",
+        "strokeColor": "#000000"
+       },
+       "compId": 246
+      },
+      {
+       "type": "TextInput",
+       "props": {
+        "y": 0,
+        "var": "tp_message",
+        "right": 0,
+        "left": 0,
+        "height": 14,
+        "fontSize": 12,
+        "color": "#A9A9A9",
+        "text": ""
+       },
+       "compId": 243
+      }
+     ]
+    },
+    {
+     "type": "Box",
+     "props": {
+      "x": 38,
+      "width": 47,
+      "var": "box_selectChannel",
+      "height": 73,
+      "bottom": 23,
+      "anchorY": 1,
+      "anchorX": 0.5
+     },
+     "compId": 229,
+     "child": [
+      {
+       "type": "Image",
+       "props": {
+        "top": -1,
+        "skin": "data/dev/res/public/1900000677.png",
+        "sizeGrid": "9,9,9,9,0",
+        "right": -1,
+        "left": -1,
+        "bottom": -1
+       },
+       "compId": 230
+      },
+      {
+       "type": "List",
+       "props": {
+        "y": 0,
+        "x": 0,
+        "var": "list_selectChannel",
+        "repeatY": 4,
+        "repeatX": 1,
+        "spaceX": 0,
+        "spaceY": 0
+       },
+       "compId": 232,
+       "child": [
+        {
+         "type": "Box",
+         "props": {
+          "width": 47,
+          "renderType": "render",
+          "height": 18,
+          "x": 0,
+          "y": 0
+         },
+         "compId": 233,
+         "child": [
+          {
+           "type": "Image",
+           "props": {
+            "width": 47,
+            "skin": "data/dev/res/public/1900000678.png",
+            "name": "select",
+            "height": 18,
+            "centerY": 0,
+            "centerX": 0
+           },
+           "compId": 234
+          },
+          {
+           "type": "Label",
+           "props": {
+            "text": "附近",
+            "name": "channel",
+            "fontSize": 12,
+            "color": "#ffffff",
+            "centerY": 0,
+            "centerX": 0
+           },
+           "compId": 238
+          }
+         ]
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "type": "Button",
+     "props": {
+      "x": 38,
+      "width": 49,
+      "var": "btn_channel",
+      "stateNum": 1,
+      "skin": "data/dev/res/private/main-win32/btn_channel.png",
+      "runtime": "script/Scene/Public/ScaleButton.js",
+      "height": 16,
+      "bottom": 6,
+      "anchorY": 0.5,
+      "anchorX": 0.5
+     },
+     "compId": 217,
+     "child": [
+      {
+       "type": "Text",
+       "props": {
+        "y": 3,
+        "x": 18.5,
+        "var": "lab_channel",
+        "text": "附近",
+        "color": "#ffffff",
+        "runtime": "Laya.Text",
+        "fontSize": 12
+       },
+       "compId": 218
+      }
+     ]
+    },
+    {
+     "type": "Image",
+     "props": {
+      "top": -50,
+      "skin": "data/dev/res/private/main-win32/00000040.png",
+      "centerX": 0,
+      "visible": false
+     },
+     "compId": 69,
+     "child": [
+      {
+       "type": "Image",
+       "props": {
+        "y": 9,
+        "x": 87,
+        "width": 45,
+        "var": "img_item0",
+        "name": "img_item0",
+        "height": 45,
+        "skin": ""
+       },
+       "compId": 36,
+       "child": [
+        {
+         "type": "Label",
+         "props": {
+          "zOrder": 100,
+          "var": "lab_quick0",
+          "top": 10,
+          "text": "1",
+          "stroke": 2,
+          "right": 4,
+          "fontSize": 12,
+          "color": "#ffffff",
+          "strokeColor": "#000000"
+         },
+         "compId": 267
+        }
+       ]
+      },
+      {
+       "type": "Image",
+       "props": {
+        "y": 9,
+        "x": 131,
+        "width": 45,
+        "var": "img_item1",
+        "name": "img_item1",
+        "height": 45,
+        "skin": ""
+       },
+       "compId": 41,
+       "child": [
+        {
+         "type": "Label",
+         "props": {
+          "zOrder": 100,
+          "var": "lab_quick1",
+          "top": 10,
+          "text": "1",
+          "stroke": 2,
+          "right": 5,
+          "fontSize": 12,
+          "color": "#ffffff",
+          "strokeColor": "#000000"
+         },
+         "compId": 265
+        }
+       ]
+      },
+      {
+       "type": "Image",
+       "props": {
+        "y": 9,
+        "x": 175,
+        "width": 45,
+        "var": "img_item2",
+        "name": "img_item2",
+        "height": 45,
+        "skin": ""
+       },
+       "compId": 37,
+       "child": [
+        {
+         "type": "Label",
+         "props": {
+          "zOrder": 100,
+          "var": "lab_quick2",
+          "top": 10,
+          "text": "1",
+          "stroke": 2,
+          "right": 5,
+          "fontSize": 12,
+          "color": "#ffffff",
+          "strokeColor": "#000000"
+         },
+         "compId": 266
+        }
+       ]
+      },
+      {
+       "type": "Image",
+       "props": {
+        "y": 9,
+        "x": 218,
+        "width": 45,
+        "var": "img_item3",
+        "name": "img_item3",
+        "height": 45,
+        "skin": ""
+       },
+       "compId": 38,
+       "child": [
+        {
+         "type": "Label",
+         "props": {
+          "zOrder": 100,
+          "var": "lab_quick3",
+          "top": 10,
+          "text": "1",
+          "stroke": 2,
+          "right": 5,
+          "fontSize": 12,
+          "color": "#ffffff",
+          "strokeColor": "#000000"
+         },
+         "compId": 261
+        }
+       ]
+      },
+      {
+       "type": "Image",
+       "props": {
+        "y": 9,
+        "x": 262,
+        "width": 45,
+        "var": "img_item4",
+        "name": "img_item4",
+        "height": 45,
+        "skin": ""
+       },
+       "compId": 39,
+       "child": [
+        {
+         "type": "Label",
+         "props": {
+          "zOrder": 100,
+          "var": "lab_quick4",
+          "top": 10,
+          "text": "1",
+          "stroke": 2,
+          "right": 5,
+          "fontSize": 12,
+          "color": "#ffffff",
+          "strokeColor": "#000000"
+         },
+         "compId": 262
+        }
+       ]
+      },
+      {
+       "type": "Image",
+       "props": {
+        "y": 9,
+        "x": 306,
+        "width": 45,
+        "var": "img_item5",
+        "name": "img_item5",
+        "height": 45,
+        "skin": ""
+       },
+       "compId": 40,
+       "child": [
+        {
+         "type": "Label",
+         "props": {
+          "zOrder": 100,
+          "var": "lab_quick5",
+          "top": 10,
+          "text": "1",
+          "stroke": 2,
+          "right": 5,
+          "fontSize": 12,
+          "color": "#ffffff",
+          "strokeColor": "#000000"
+         },
+         "compId": 263
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "type": "Box",
+     "props": {
+      "width": 34,
+      "visible": false,
+      "var": "btn_send",
+      "runtime": "script/Scene/Public/StateButton.js",
+      "right": 12,
+      "height": 20,
+      "bottom": 4,
+      "anchorY": 0.5,
+      "anchorX": 0.5
+     },
+     "compId": 247,
+     "child": [
+      {
+       "type": "Image",
+       "props": {
+        "y": 0,
+        "x": 0,
+        "width": 34,
+        "stateNum": 1,
+        "skin": "data/dev/res/private/chat/1900012823.png",
+        "name": "up",
+        "height": 20
+       },
+       "compId": 248
+      },
+      {
+       "type": "Image",
+       "props": {
+        "y": 0,
+        "x": 0,
+        "width": 34,
+        "stateNum": 1,
+        "skin": "data/dev/res/private/chat/1900012824.png",
+        "name": "down",
+        "height": 20
+       },
+       "compId": 249
+      },
+      {
+       "type": "Image",
+       "props": {
+        "width": 47,
+        "var": "img_send",
+        "skin": "data/dev/res/private/chat/1900012835.png",
+        "scaleY": 0.6,
+        "scaleX": 0.6,
+        "height": 23,
+        "centerY": 0,
+        "centerX": 0
+       },
+       "compId": 250
+      },
+      {
+       "type": "Label",
+       "props": {
+        "zOrder": 10,
+        "var": "lab_sendCD",
+        "valign": "middle",
+        "text": "1",
+        "strokeColor": "#000000",
+        "stroke": 2,
+        "fontSize": 16,
+        "color": "#e2d49f",
+        "centerY": 0,
+        "centerX": 0,
+        "align": "center"
+       },
+       "compId": 251
+      }
+     ]
+    },
+    {
+     "type": "Label",
+     "props": {
+      "y": 28,
+      "x": 17,
+      "visible": false,
+      "var": "lab_chat_size",
+      "text": "聊天框字体大小",
+      "fontSize": 12,
+      "color": "#000000"
+     },
+     "compId": 269
+    }
+   ]
+  },
+  {
+   "type": "Image",
+   "props": {
+    "var": "img_left",
+    "skin": "data/dev/res/private/main-win32/1900010500.png",
+    "bottom": 0,
+    "centerX": -471
+   },
+   "compId": 66,
+   "child": [
+    {
+     "type": "Image",
+     "props": {
+      "y": 203.5,
+      "x": 19,
+      "skin": "data/dev/res/private/main-win32/000009.png",
+      "visible": false
+     },
+     "compId": 87
+    },
+    {
+     "type": "Image",
+     "props": {
+      "y": 128,
+      "x": 63,
+      "width": 94,
+      "visible": false,
+      "var": "img_maxhp",
+      "skin": "data/dev/res/private/main-win32/1900000501.png",
+      "sizeGrid": "0,0,0,0,1",
+      "rotation": -90,
+      "height": 94
+     },
+     "compId": 34,
+     "child": [
+      {
+       "type": "Box",
+       "props": {
+        "y": -95,
+        "x": 2,
+        "width": 94,
+        "var": "box_mhp_magicBall",
+        "mouseThrough": true,
+        "mouseEnabled": false,
+        "height": 94
+       },
+       "compId": 207
+      }
+     ]
+    },
+    {
+     "type": "Image",
+     "props": {
+      "y": 118,
+      "x": 64,
+      "width": 90,
+      "var": "img_hp",
+      "skin": "data/dev/res/private/main-win32/1900000502.png",
+      "sizeGrid": "0,0,0,0,1",
+      "rotation": -90,
+      "height": 47
+     },
+     "compId": 16,
+     "child": [
+      {
+       "type": "Box",
+       "props": {
+        "y": -19,
+        "x": -20,
+        "width": 94,
+        "var": "box_hp_magicBall",
+        "height": 44
+       },
+       "compId": 204
+      }
+     ]
+    },
+    {
+     "type": "Image",
+     "props": {
+      "y": 118,
+      "x": 112,
+      "width": 90,
+      "var": "img_mp",
+      "skin": "data/dev/res/private/main-win32/1900000503.png",
+      "sizeGrid": "0,0,0,0,1",
+      "rotation": -90,
+      "height": 47
+     },
+     "compId": 17,
+     "child": [
+      {
+       "type": "Box",
+       "props": {
+        "y": -21,
+        "x": 0,
+        "width": 94,
+        "var": "box_mp_magicBall",
+        "height": 44
+       },
+       "compId": 205
+      }
+     ]
+    },
+    {
+     "type": "Box",
+     "props": {
+      "y": 0,
+      "x": 0,
+      "width": 1,
+      "var": "box_magicBall",
+      "height": 1
+     },
+     "compId": 208
+    },
+    {
+     "type": "Label",
+     "props": {
+      "y": 174,
+      "x": 100,
+      "var": "lb_hp",
+      "text": "999/999",
+      "stroke": 1,
+      "fontSize": 12,
+      "color": "#ffffff",
+      "anchorY": 0.5,
+      "anchorX": 0.5,
+      "strokeColor": "#000000"
+     },
+     "compId": 27
+    },
+    {
+     "type": "Label",
+     "props": {
+      "y": 193,
+      "x": 99,
+      "var": "lb_mp",
+      "text": "999/999",
+      "stroke": 1,
+      "fontSize": 12,
+      "color": "#ffffff",
+      "anchorY": 0.5,
+      "anchorX": 0.5,
+      "strokeColor": "#000000"
+     },
+     "compId": 28
+    },
+    {
+     "type": "Label",
+     "props": {
+      "y": 142,
+      "x": 22,
+      "width": 150,
+      "var": "lb_map",
+      "text": "小地图",
+      "height": 16,
+      "fontSize": 16,
+      "color": "#ffffff"
+     },
+     "compId": 96
+    }
+   ]
+  },
+  {
+   "type": "Image",
+   "props": {
+    "var": "img_right",
+    "skin": "data/dev/res/private/main-win32/1900010501.png",
+    "bottom": 0,
+    "width": 195,
+    "height": 184,
+    "centerX": 471
+   },
+   "compId": 67,
+   "child": [
+    {
+     "type": "Image",
+     "props": {
+      "y": 79,
+      "x": 148,
+      "var": "img_sum",
+      "skin": "data/dev/res/private/main-win32/00000045.png",
+      "visible": false
+     },
+     "compId": 70
+    },
+    {
+     "type": "Box",
+     "props": {
+      "y": 145,
+      "x": 85,
+      "width": 97,
+      "var": "box_expPro",
+      "height": 14,
+      "anchorY": 0.5,
+      "anchorX": 0.5
+     },
+     "compId": 115,
+     "child": [
+      {
+       "type": "Image",
+       "props": {
+        "width": 76,
+        "var": "img_expPro",
+        "skin": "data/dev/res/private/main-win32/00000041.png",
+        "sizeGrid": "0,0,0,0,1",
+        "x": 0,
+        "y": 0
+       },
+       "compId": 94
+      }
+     ]
+    },
+    {
+     "type": "Box",
+     "props": {
+      "y": 219,
+      "x": 104,
+      "width": 77,
+      "var": "box_weightPro",
+      "height": 14,
+      "anchorY": 0.5,
+      "anchorX": 0.5
+     },
+     "compId": 116,
+     "child": [
+      {
+       "type": "Image",
+       "props": {
+        "width": 76,
+        "var": "img_weightPro",
+        "skin": "data/dev/res/private/main-win32/00000041.png",
+        "sizeGrid": "0,0,0,0,1",
+        "x": 0,
+        "y": 0
+       },
+       "compId": 99
+      }
+     ]
+    },
+    {
+     "type": "Box",
+     "props": {
+      "y": 98,
+      "x": 6,
+      "var": "box_ng",
+      "visible": false
+     },
+     "compId": 270,
+     "child": [
+      {
+       "type": "Image",
+       "props": {
+        "skin": "data/dev/res/private/main-win32/01120.png",
+        "x": 0,
+        "y": 0
+       },
+       "compId": 271
+      },
+      {
+       "type": "Image",
+       "props": {
+        "var": "img_ng",
+        "x": 0,
+        "y": 0,
+        "skin": ""
+       },
+       "compId": 272
+      }
+     ]
+    },
+    {
+     "type": "Image",
+     "props": {
+      "y": 230,
+      "x": 74,
+      "skin": "data/dev/res/private/main-win32/000018.png"
+     },
+     "compId": 95
+    },
+    {
+     "type": "Label",
+     "props": {
+      "y": 82,
+      "var": "lb_lv",
+      "text": "200",
+      "fontSize": 14,
+      "color": "#ffffff",
+      "centerX": -33,
+      "anchorY": 0.5,
+      "anchorX": 0.5
+     },
+     "compId": 29
+    },
+    {
+     "type": "Label",
+     "props": {
+      "y": 170,
+      "x": 100,
+      "width": 80,
+      "var": "lb_time",
+      "text": "17:13:03",
+      "fontSize": 14,
+      "color": "#ffffff",
+      "anchorY": 0.5,
+      "anchorX": 0.5,
+      "align": "center"
+     },
+     "compId": 31
+    },
+    {
+     "type": "Label",
+     "props": {
+      "y": 114,
+      "x": 81,
+      "var": "lb_mode",
+      "text": "[全体攻击模式]",
+      "fontSize": 14,
+      "color": "#ffffff",
+      "anchorY": 0.5,
+      "anchorX": 0.5,
+      "align": "center"
+     },
+     "compId": 98
+    },
+    {
+     "type": "Box",
+     "props": {
+      "zOrder": 5,
+      "y": 0,
+      "x": 0,
+      "width": 45,
+      "var": "btn_role",
+      "runtime": "script/Scene/Public/StateButton.js",
+      "height": 45
+     },
+     "compId": 102,
+     "child": [
+      {
+       "type": "Image",
+       "props": {
+        "y": 0,
+        "x": 0,
+        "name": "up",
+        "skin": "data/dev/res/private/main-win32/00000034.png"
+       },
+       "compId": 196
+      },
+      {
+       "type": "Image",
+       "props": {
+        "y": 0,
+        "x": 0,
+        "skin": "data/dev/res/private/main-win32/00000034_1.png",
+        "name": "down"
+       },
+       "compId": 104
+      }
+     ]
+    },
+    {
+     "type": "Box",
+     "props": {
+      "zOrder": 5,
+      "y": 0,
+      "x": 50,
+      "width": 45,
+      "var": "btn_bag",
+      "runtime": "script/Scene/Public/StateButton.js",
+      "height": 45
+     },
+     "compId": 105,
+     "child": [
+      {
+       "type": "Image",
+       "props": {
+        "y": 0,
+        "x": 0,
+        "name": "up",
+        "skin": "data/dev/res/private/main-win32/00000035.png"
+       },
+       "compId": 197
+      },
+      {
+       "type": "Image",
+       "props": {
+        "skin": "data/dev/res/private/main-win32/00000035_1.png",
+        "name": "down",
+        "x": 0,
+        "y": 0
+       },
+       "compId": 106
+      }
+     ]
+    },
+    {
+     "type": "Box",
+     "props": {
+      "zOrder": 5,
+      "y": 0,
+      "x": 100,
+      "width": 45,
+      "var": "btn_skill",
+      "runtime": "script/Scene/Public/StateButton.js",
+      "height": 45
+     },
+     "compId": 107,
+     "child": [
+      {
+       "type": "Image",
+       "props": {
+        "y": 0,
+        "x": 0,
+        "name": "up",
+        "skin": "data/dev/res/private/main-win32/00000036.png"
+       },
+       "compId": 198
+      },
+      {
+       "type": "Image",
+       "props": {
+        "skin": "data/dev/res/private/main-win32/00000036_1.png",
+        "name": "down",
+        "x": 0,
+        "y": 0
+       },
+       "compId": 108
+      }
+     ]
+    },
+    {
+     "type": "Box",
+     "props": {
+      "zOrder": 5,
+      "y": 18.5,
+      "x": 145,
+      "width": 45,
+      "var": "btn_sound",
+      "runtime": "script/Scene/Public/StateButton.js",
+      "height": 45
+     },
+     "compId": 109,
+     "child": [
+      {
+       "type": "Image",
+       "props": {
+        "y": 0,
+        "x": 0,
+        "name": "up",
+        "skin": "data/dev/res/private/main-win32/00000037.png"
+       },
+       "compId": 199
+      },
+      {
+       "type": "Image",
+       "props": {
+        "skin": "data/dev/res/private/main-win32/00000037_1.png",
+        "name": "down",
+        "x": 0,
+        "y": 0
+       },
+       "compId": 110
+      }
+     ]
+    },
+    {
+     "type": "Box",
+     "props": {
+      "zOrder": 5,
+      "y": 100,
+      "x": 154,
+      "width": 28,
+      "var": "btn_shop",
+      "runtime": "script/Scene/Public/StateButton.js",
+      "height": 26
+     },
+     "compId": 71,
+     "child": [
+      {
+       "type": "Image",
+       "props": {
+        "y": 0,
+        "x": 0,
+        "skin": "data/dev/res/private/main-win32/000038.png",
+        "name": "up"
+       },
+       "compId": 72
+      },
+      {
+       "type": "Image",
+       "props": {
+        "y": 0,
+        "x": 0,
+        "skin": "data/dev/res/private/main-win32/000039.png",
+        "name": "down"
+       },
+       "compId": 73
+      }
+     ]
+    },
+    {
+     "type": "Box",
+     "props": {
+      "zOrder": 5,
+      "y": 64,
+      "x": 1,
+      "width": 32,
+      "var": "btn_stall",
+      "runtime": "script/Scene/Public/StateButton.js",
+      "height": 32,
+      "visible": false
+     },
+     "compId": 111,
+     "child": [
+      {
+       "type": "Image",
+       "props": {
+        "y": 0,
+        "x": 0,
+        "skin": "data/dev/res/private/main-win32/000194.png",
+        "name": "up"
+       },
+       "compId": 112
+      },
+      {
+       "type": "Image",
+       "props": {
+        "y": 0,
+        "x": 0,
+        "skin": "data/dev/res/private/main-win32/000195.png",
+        "name": "down"
+       },
+       "compId": 113
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "type": "Image",
+   "props": {
+    "width": 20,
+    "var": "laodBarbg",
+    "skin": "data/dev/res/private/main-win32/01072.png",
+    "right": 173,
+    "height": 155,
+    "bottom": 0,
+    "visible": false
+   },
+   "compId": 188,
+   "child": [
+    {
+     "type": "Panel",
+     "props": {
+      "x": 0,
+      "width": 20,
+      "var": "loadBar",
+      "height": 154,
+      "bottom": 1
+     },
+     "compId": 189,
+     "child": [
+      {
+       "type": "Image",
+       "props": {
+        "x": 0,
+        "width": 20,
+        "var": "img_loadbar1",
+        "skin": "data/dev/res/private/main-win32/01070.png",
+        "sizeGrid": "6,0,4,0,0",
+        "height": 154,
+        "bottom": 0
+       },
+       "compId": 190
+      },
+      {
+       "type": "Image",
+       "props": {
+        "x": 0,
+        "width": 20,
+        "var": "img_loadbar2",
+        "skin": "data/dev/res/private/main-win32/01071.png",
+        "sizeGrid": "6,0,10,0,0",
+        "height": 154,
+        "bottom": 0
+       },
+       "compId": 191
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "type": "Box",
+   "props": {
+    "width": 18,
+    "hitTestPrior": false,
+    "height": 121,
+    "bottom": 12,
+    "centerX": -382
+   },
+   "compId": 139,
+   "child": [
+    {
+     "type": "Box",
+     "props": {
+      "y": 3.5,
+      "x": 8,
+      "width": 18,
+      "var": "btn_publicChannel",
+      "runtime": "script/Scene/Public/TabButton.js",
+      "height": 17,
+      "anchorY": 0.5,
+      "anchorX": 0.5
+     },
+     "compId": 118,
+     "child": [
+      {
+       "type": "Image",
+       "props": {
+        "y": 0,
+        "x": 0,
+        "skin": "data/dev/res/private/main-win32/190001100.png",
+        "name": "up"
+       },
+       "compId": 119
+      },
+      {
+       "type": "Image",
+       "props": {
+        "y": 0,
+        "x": 0,
+        "skin": "data/dev/res/private/main-win32/190001101.png",
+        "name": "down"
+       },
+       "compId": 120
+      }
+     ]
+    },
+    {
+     "type": "Box",
+     "props": {
+      "y": 22.5,
+      "x": 8,
+      "width": 18,
+      "var": "btn_worldChannel",
+      "runtime": "script/Scene/Public/TabButton.js",
+      "height": 17,
+      "anchorY": 0.5,
+      "anchorX": 0.5
+     },
+     "compId": 124,
+     "child": [
+      {
+       "type": "Image",
+       "props": {
+        "y": 0,
+        "x": 0,
+        "skin": "data/dev/res/private/main-win32/190001102.png",
+        "name": "up"
+       },
+       "compId": 125
+      },
+      {
+       "type": "Image",
+       "props": {
+        "y": 0,
+        "x": 0,
+        "skin": "data/dev/res/private/main-win32/190001103.png",
+        "name": "down"
+       },
+       "compId": 126
+      }
+     ]
+    },
+    {
+     "type": "Box",
+     "props": {
+      "y": 41.5,
+      "x": 8,
+      "width": 18,
+      "var": "btn_privateChannel",
+      "runtime": "script/Scene/Public/TabButton.js",
+      "height": 17,
+      "anchorY": 0.5,
+      "anchorX": 0.5
+     },
+     "compId": 127,
+     "child": [
+      {
+       "type": "Image",
+       "props": {
+        "y": 0,
+        "x": 0,
+        "skin": "data/dev/res/private/main-win32/190001104.png",
+        "name": "up"
+       },
+       "compId": 128
+      },
+      {
+       "type": "Image",
+       "props": {
+        "y": 0,
+        "x": 0,
+        "skin": "data/dev/res/private/main-win32/190001105.png",
+        "name": "down"
+       },
+       "compId": 129
+      }
+     ]
+    },
+    {
+     "type": "Box",
+     "props": {
+      "y": 60.5,
+      "x": 8,
+      "width": 18,
+      "var": "btn_guildChannel",
+      "runtime": "script/Scene/Public/TabButton.js",
+      "height": 17,
+      "anchorY": 0.5,
+      "anchorX": 0.5
+     },
+     "compId": 130,
+     "child": [
+      {
+       "type": "Image",
+       "props": {
+        "y": 0,
+        "x": 0,
+        "skin": "data/dev/res/private/main-win32/190001106.png",
+        "name": "up"
+       },
+       "compId": 131
+      },
+      {
+       "type": "Image",
+       "props": {
+        "y": 0,
+        "x": 0,
+        "skin": "data/dev/res/private/main-win32/190001107.png",
+        "name": "down"
+       },
+       "compId": 132
+      }
+     ]
+    },
+    {
+     "type": "Box",
+     "props": {
+      "y": 117,
+      "x": 10,
+      "width": 18,
+      "var": "btn_autoShout",
+      "runtime": "script/Scene/Public/TabButton.js",
+      "height": 17,
+      "anchorY": 0.5,
+      "anchorX": 0.5
+     },
+     "compId": 255,
+     "child": [
+      {
+       "type": "Image",
+       "props": {
+        "y": 0,
+        "x": 0,
+        "skin": "data/dev/res/private/main-win32/190001112.png",
+        "name": "up"
+       },
+       "compId": 256
+      },
+      {
+       "type": "Image",
+       "props": {
+        "y": 0,
+        "x": 0,
+        "skin": "data/dev/res/private/main-win32/190001113.png",
+        "name": "down"
+       },
+       "compId": 257
+      }
+     ]
+    },
+    {
+     "type": "Box",
+     "props": {
+      "y": 79,
+      "x": 8,
+      "width": 18,
+      "var": "btn_shoutChannel",
+      "runtime": "script/Scene/Public/TabButton.js",
+      "height": 17,
+      "anchorY": 0.5,
+      "anchorX": 0.5
+     },
+     "compId": 211,
+     "child": [
+      {
+       "type": "Image",
+       "props": {
+        "y": 0,
+        "x": 0,
+        "skin": "data/dev/res/private/main-win32/190001108.png",
+        "name": "up"
+       },
+       "compId": 212
+      },
+      {
+       "type": "Image",
+       "props": {
+        "y": 0,
+        "x": 0,
+        "skin": "data/dev/res/private/main-win32/190001109.png",
+        "name": "down"
+       },
+       "compId": 213
+      }
+     ]
+    },
+    {
+     "type": "Box",
+     "props": {
+      "y": 97.5,
+      "x": 10,
+      "width": 18,
+      "var": "btn_cmd",
+      "runtime": "script/Scene/Public/StateButton.js",
+      "height": 17,
+      "anchorY": 0.5,
+      "anchorX": 0.5
+     },
+     "compId": 136,
+     "child": [
+      {
+       "type": "Image",
+       "props": {
+        "y": 0,
+        "x": 0,
+        "skin": "data/dev/res/private/main-win32/190001110.png",
+        "name": "up"
+       },
+       "compId": 137
+      },
+      {
+       "type": "Image",
+       "props": {
+        "y": 0,
+        "x": 0,
+        "skin": "data/dev/res/private/main-win32/190001111.png",
+        "name": "down"
+       },
+       "compId": 138
+      }
+     ]
+    },
+    {
+     "type": "Button",
+     "props": {
+      "y": 22,
+      "x": -13,
+      "width": 39,
+      "visible": false,
+      "var": "btn_chatEmoji",
+      "stateNum": 1,
+      "skin": "data/dev/res/private/chat/1900012852.png",
+      "scaleY": 0.5,
+      "scaleX": 0.5,
+      "runtime": "script/Scene/Public/ScaleButton.js",
+      "height": 41,
+      "anchorY": 0.5,
+      "anchorX": 0.5
+     },
+     "compId": 239
+    },
+    {
+     "type": "Button",
+     "props": {
+      "y": 46.5,
+      "x": -13,
+      "width": 39,
+      "visible": false,
+      "var": "btn_chatBag",
+      "stateNum": 1,
+      "skin": "data/dev/res/private/chat/1900012856.png",
+      "scaleY": 0.5,
+      "scaleX": 0.5,
+      "runtime": "script/Scene/Public/ScaleButton.js",
+      "height": 41,
+      "anchorY": 0.5,
+      "anchorX": 0.5
+     },
+     "compId": 240
+    },
+    {
+     "type": "Button",
+     "props": {
+      "y": 70,
+      "x": -13,
+      "width": 39,
+      "visible": false,
+      "var": "btn_chatPos",
+      "stateNum": 1,
+      "skin": "data/dev/res/private/chat/1900012858.png",
+      "scaleY": 0.5,
+      "scaleX": 0.5,
+      "runtime": "script/Scene/Public/ScaleButton.js",
+      "height": 41,
+      "anchorY": 0.5,
+      "anchorX": 0.5
+     },
+     "compId": 241
+    },
+    {
+     "type": "Button",
+     "props": {
+      "y": 94,
+      "x": -13,
+      "width": 39,
+      "visible": false,
+      "var": "btn_chatRecord",
+      "stateNum": 1,
+      "skin": "data/dev/res/private/chat/1900012860.png",
+      "scaleY": 0.5,
+      "scaleX": 0.5,
+      "runtime": "script/Scene/Public/ScaleButton.js",
+      "height": 41,
+      "anchorY": 0.5,
+      "anchorX": 0.5
+     },
+     "compId": 242
+    }
+   ]
+  },
+  {
+   "type": "Box",
+   "props": {
+    "width": 85,
+    "var": "box_hero",
+    "right": 77,
+    "height": 27,
+    "bottom": 128
+   },
+   "compId": 177,
+   "child": [
+    {
+     "type": "Box",
+     "props": {
+      "y": 0,
+      "x": 0,
+      "var": "btn_herostate",
+      "runtime": "script/Scene/Public/StateButton.js",
+      "anchorY": 0,
+      "anchorX": 0
+     },
+     "compId": 178,
+     "child": [
+      {
+       "type": "Image",
+       "props": {
+        "y": 0,
+        "x": 0,
+        "skin": "data/dev/res/private/main-win32/00649.PNG",
+        "name": "up"
+       },
+       "compId": 179
+      },
+      {
+       "type": "Image",
+       "props": {
+        "y": 0,
+        "x": 0,
+        "skin": "data/dev/res/private/main-win32/00650.PNG",
+        "name": "down"
+       },
+       "compId": 180
+      }
+     ]
+    },
+    {
+     "type": "Box",
+     "props": {
+      "y": 0,
+      "x": 32,
+      "var": "btn_heroinfo",
+      "runtime": "script/Scene/Public/StateButton.js",
+      "anchorY": 0,
+      "anchorX": 0
+     },
+     "compId": 181,
+     "child": [
+      {
+       "type": "Image",
+       "props": {
+        "y": 0,
+        "x": 0,
+        "skin": "data/dev/res/private/main-win32/00661.PNG",
+        "name": "up"
+       },
+       "compId": 182
+      },
+      {
+       "type": "Image",
+       "props": {
+        "y": 0,
+        "x": 0,
+        "skin": "data/dev/res/private/main-win32/00662.PNG",
+        "name": "down"
+       },
+       "compId": 183
+      }
+     ]
+    },
+    {
+     "type": "Box",
+     "props": {
+      "y": 0,
+      "x": 64,
+      "var": "btn_herobag",
+      "runtime": "script/Scene/Public/StateButton.js",
+      "anchorY": 0,
+      "anchorX": 0
+     },
+     "compId": 184,
+     "child": [
+      {
+       "type": "Image",
+       "props": {
+        "y": 0,
+        "x": 0,
+        "skin": "data/dev/res/private/main-win32/00655.PNG",
+        "name": "up"
+       },
+       "compId": 185
+      },
+      {
+       "type": "Image",
+       "props": {
+        "y": 0,
+        "x": 0,
+        "skin": "data/dev/res/private/main-win32/00656.PNG",
+        "name": "down"
+       },
+       "compId": 186
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "type": "Box",
+   "props": {
+    "width": 1136,
+    "var": "box_br",
+    "right": 0,
+    "mouseThrough": true,
+    "height": 640,
+    "bottom": 0
+   },
+   "compId": 192
+  },
+  {
+   "type": "Box",
+   "props": {
+    "y": 1,
+    "width": 1136,
+    "var": "box_r",
+    "right": 0,
+    "mouseThrough": true,
+    "height": 640
+   },
+   "compId": 140
+  },
+  {
+   "type": "Box",
+   "props": {
+    "width": 1136,
+    "var": "box_b",
+    "mouseThrough": true,
+    "height": 640,
+    "centerX": 0,
+    "bottom": 0
+   },
+   "compId": 141
+  },
+  {
+   "type": "Box",
+   "props": {
+    "width": 1136,
+    "var": "box_bl",
+    "mouseThrough": true,
+    "left": 0,
+    "height": 640,
+    "bottom": 0
+   },
+   "compId": 200
+  },
+  {
+   "type": "Box",
+   "props": {
+    "width": 1136,
+    "var": "box_ct",
+    "top": 0,
+    "mouseThrough": true,
+    "height": 640,
+    "centerX": 0
+   },
+   "compId": 210
+  }
+ ],
+ "loadList": [
+  "data/dev/res/private/main-win32/00000056.png",
+  "data/dev/res/private/main-win32/1900011009.png",
+  "data/dev/res/private/main-win32/1900011010.png",
+  "data/dev/res/private/main-win32/1900011011.png",
+  "data/dev/res/private/main-win32/1900011012.png",
+  "data/dev/res/private/main-win32/1900011015.png",
+  "data/dev/res/private/main-win32/1900011016.png",
+  "data/dev/res/private/main-win32/1900011013.png",
+  "data/dev/res/private/main-win32/1900011014.png",
+  "data/dev/res/private/main-win32/1900011027.png",
+  "data/dev/res/private/main-win32/1900011028.png",
+  "data/dev/res/private/main-win32/1900011029.png",
+  "data/dev/res/private/main-win32/1900011030.png",
+  "data/dev/res/private/main-win32/1900011003.png",
+  "data/dev/res/private/main-win32/1900011004.png",
+  "data/dev/res/private/main-win32/1900011017.png",
+  "data/dev/res/private/main-win32/1900011018.png",
+  "data/dev/res/private/main-win32/1900011019.png",
+  "data/dev/res/private/main-win32/1900011020.png",
+  "data/dev/res/public/1900000677.png",
+  "data/dev/res/public/1900000678.png",
+  "data/dev/res/private/main-win32/btn_channel.png",
+  "data/dev/res/private/main-win32/00000040.png",
+  "data/dev/res/private/chat/1900012823.png",
+  "data/dev/res/private/chat/1900012824.png",
+  "data/dev/res/private/chat/1900012835.png",
+  "data/dev/res/private/main-win32/1900010500.png",
+  "data/dev/res/private/main-win32/000009.png",
+  "data/dev/res/private/main-win32/1900000501.png",
+  "data/dev/res/private/main-win32/1900000502.png",
+  "data/dev/res/private/main-win32/1900000503.png",
+  "data/dev/res/private/main-win32/1900010501.png",
+  "data/dev/res/private/main-win32/00000034.png",
+  "data/dev/res/private/main-win32/00000035.png",
+  "data/dev/res/private/main-win32/00000036.png",
+  "data/dev/res/private/main-win32/00000037.png",
+  "data/dev/res/private/main-win32/000038.png",
+  "data/dev/res/private/main-win32/000039.png",
+  "data/dev/res/private/main-win32/000194.png",
+  "data/dev/res/private/main-win32/000195.png",
+  "data/dev/res/private/main-win32/00000045.png",
+  "data/dev/res/private/main-win32/00000041.png",
+  "data/dev/res/private/main-win32/01120.png",
+  "data/dev/res/private/main-win32/000018.png",
+  "data/dev/res/private/main-win32/01072.png",
+  "data/dev/res/private/main-win32/01070.png",
+  "data/dev/res/private/main-win32/01071.png",
+  "data/dev/res/private/main-win32/190001100.png",
+  "data/dev/res/private/main-win32/190001101.png",
+  "data/dev/res/private/main-win32/190001102.png",
+  "data/dev/res/private/main-win32/190001103.png",
+  "data/dev/res/private/main-win32/190001104.png",
+  "data/dev/res/private/main-win32/190001105.png",
+  "data/dev/res/private/main-win32/190001106.png",
+  "data/dev/res/private/main-win32/190001107.png",
+  "data/dev/res/private/main-win32/190001112.png",
+  "data/dev/res/private/main-win32/190001113.png",
+  "data/dev/res/private/main-win32/190001108.png",
+  "data/dev/res/private/main-win32/190001109.png",
+  "data/dev/res/private/main-win32/190001110.png",
+  "data/dev/res/private/main-win32/190001111.png",
+  "data/dev/res/private/chat/1900012852.png",
+  "data/dev/res/private/chat/1900012856.png",
+  "data/dev/res/private/chat/1900012858.png",
+  "data/dev/res/private/chat/1900012860.png"
+ ],
+ "loadList3D": [],
+ "sceneUrl": "pcgamescene/GameMainScene/GameMain_UI/BotbarUI.json",
+ "data": {
+  "id": "BotbarUI",
+  "url": "pcgamescene/GameMainScene/GameMain_UI/BotbarUI.scene",
+  "root": "pcgamescene/GameMainScene/GameMain.scene",
+  "x": 0,
+  "y": 0,
+  "visible": true,
+  "ismove": false,
+  "a": 5,
+  "zorder": 2
+ }
+}
