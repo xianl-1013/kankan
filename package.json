@@ -1,0 +1,12 @@
+{
+  "name": "mir2-h5-client",
+  "version": "0.1.0",
+  "description": "Crystal 服务端的 H5 客户端（WebSocket 桥 + Canvas 渲染）",
+  "main": "server/index.js",
+  "scripts": {
+    "start": "node server/index.js"
+  },
+  "dependencies": {
+    "ws": "^8.22.0"
+  }
+}

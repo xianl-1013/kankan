@@ -1,0 +1,349 @@
+/* ==========================================================================
+   怒战传奇 H5 —— UI 完全按 LayaAir 场景定义还原
+   设计分辨率 1136 x 640（GameMain.json: {"width":1136,"height":640}）
+   所有 left/top/bottom 数值 = GameMain_UI/*.json 中的原始 x / y / bottom
+   ========================================================================== */
+
+:root {
+  --gold: #d4af37;
+  --gold-light: #ffe082;
+  --gold-dark: #78601a;
+  --red: #c62828;
+  --bg-0: #080a12;
+  --bg-1: #121626;
+  --panel: rgba(12, 14, 24, 0.92);
+  --text: #e8dcc0;
+}
+
+* { box-sizing: border-box; margin: 0; padding: 0; }
+
+body {
+  background: var(--bg-0);
+  color: var(--text);
+  font-family: "Microsoft YaHei", "PingFang SC", system-ui, sans-serif;
+  overflow: hidden;
+  height: 100vh;
+}
+
+#app { position: relative; width: 100%; height: 100%; }
+
+.screen {
+  position: absolute;
+  inset: 0;
+  display: none;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 14px;
+}
+.screen.active { display: flex; }
+
+/* ---------- 登录 ---------- */
+.bg-glow {
+  position: absolute;
+  inset: 0;
+  background:
+    radial-gradient(circle at 50% 18%, rgba(120, 20, 30, 0.55), transparent 55%),
+    radial-gradient(circle at 50% 60%, rgba(30, 20, 60, 0.45), transparent 60%),
+    linear-gradient(180deg, #0b0a16 0%, #05060c 100%);
+  z-index: -1;
+}
+
+.title {
+  font-size: clamp(38px, 9vw, 76px);
+  color: var(--gold-light);
+  letter-spacing: 6px;
+  text-shadow:
+    0 0 18px rgba(255, 180, 60, 0.55),
+    0 0 42px rgba(200, 30, 20, 0.55),
+    0 3px 0 #4a0d0a;
+  font-weight: 700;
+}
+
+.subtitle {
+  color: #cdaa72;
+  letter-spacing: 8px;
+  font-size: clamp(12px, 2.4vw, 16px);
+  margin-top: -6px;
+}
+
+.panel {
+  width: min(340px, 88vw);
+  background: var(--panel);
+  border: 2px solid var(--gold-dark);
+  border-radius: 10px;
+  padding: 16px 18px 20px;
+  box-shadow: 0 0 26px rgba(255, 190, 80, 0.12), inset 0 0 40px rgba(0, 0, 0, 0.6);
+  position: relative;
+}
+
+.panel-head {
+  text-align: center;
+  color: var(--gold-light);
+  font-size: 18px;
+  letter-spacing: 4px;
+  padding-bottom: 12px;
+  margin-bottom: 12px;
+  border-bottom: 1px solid rgba(212, 175, 55, 0.35);
+  background: linear-gradient(180deg, rgba(140, 20, 26, 0.55), transparent);
+  border-radius: 6px 6px 0 0;
+  margin: -16px -18px 12px;
+  padding-top: 10px;
+}
+
+.field { display: flex; align-items: center; gap: 10px; margin-bottom: 12px; }
+.field span { width: 40px; color: #c9b487; font-size: 14px; letter-spacing: 1px; }
+.field input {
+  flex: 1;
+  background: #07080e;
+  border: 1px solid var(--gold-dark);
+  border-radius: 4px;
+  color: var(--gold-light);
+  padding: 9px 10px;
+  font-size: 14px;
+  outline: none;
+}
+.field input:focus { border-color: var(--gold); box-shadow: 0 0 8px rgba(212, 175, 55, 0.4); }
+
+.btn {
+  border: 2px solid var(--gold-dark);
+  background: linear-gradient(180deg, #2a2233, #14101c);
+  color: var(--gold-light);
+  padding: 10px 18px;
+  border-radius: 6px;
+  font-size: 15px;
+  letter-spacing: 2px;
+  cursor: pointer;
+  transition: all 0.15s;
+  font-family: inherit;
+}
+.btn:hover:not(:disabled) {
+  border-color: var(--gold-light);
+  background: linear-gradient(180deg, #4a3520, #1e1610);
+  box-shadow: 0 0 14px rgba(255, 200, 90, 0.35);
+}
+.btn:disabled { opacity: 0.45; cursor: default; }
+.btn.primary { width: 100%; margin-top: 6px; }
+
+.status { min-height: 18px; margin-top: 10px; font-size: 13px; text-align: center; color: #e57373; }
+
+/* ---------- 选角 ---------- */
+.screen-title {
+  color: var(--gold-light);
+  letter-spacing: 6px;
+  font-size: 22px;
+  text-shadow: 0 0 12px rgba(255, 200, 90, 0.5);
+}
+.char-list { display: flex; flex-direction: column; gap: 10px; width: min(420px, 90vw); }
+.char-card {
+  border: 2px solid var(--gold-dark);
+  background: rgba(10, 12, 20, 0.9);
+  border-radius: 8px;
+  padding: 12px 16px;
+  cursor: pointer;
+  transition: all 0.15s;
+}
+.char-card:hover { border-color: var(--gold); box-shadow: 0 0 12px rgba(212, 175, 55, 0.3); }
+.char-card.selected { border-color: var(--gold-light); background: rgba(50, 34, 16, 0.9); }
+.char-card .cname { color: var(--gold-light); font-size: 16px; }
+.char-card .cinfo { color: #9c8f78; font-size: 13px; margin-top: 4px; }
+
+/* ==========================================================================
+   游戏画面
+/* ==========================================================================
+   游戏画面  设计分辨率 1024 x 640
+   ========================================================================== */
+#game-screen { justify-content: flex-start; padding: 0; gap: 0; }
+
+#game-canvas {
+  position: absolute; inset: 0; width: 100%; height: 100%;
+  display: block; background: #000;
+}
+
+#ui-stage {
+  position: absolute;
+  left: 50%; top: 50%;
+  width: 1024px; height: 576px;
+  margin-left: -512px; margin-top: -288px;
+  transform: scale(var(--ui-scale, 1));
+  transform-origin: center center;
+  pointer-events: none;
+  z-index: 2;
+}
+#ui-stage img { display: block; pointer-events: none; -webkit-user-drag: none; }
+#ui-stage .rk { pointer-events: auto; }
+
+/* ---------- 左侧：属性面板 rw_bg (235x221) ---------- */
+.attr-panel { position: absolute; left: 0; top: 177px; width: 235px; height: 221px; }
+.attr-bg { position: absolute; left: 0; top: 0; width: 235px; height: 221px; }
+.attr-v {
+  position: absolute; left: 150px; width: 80px;
+  font-size: 10px; line-height: 18px; color: #ffe9a8;
+  text-align: center; text-shadow: 0 1px 2px #000;
+  white-space: nowrap; transform: scale(.92); transform-origin: center;
+}
+/* 专属神器 rw_1 (116x79) */
+.attr-shenqi { position: absolute; left: 0; top: 286.2px; width: 116px; height: 79px; }
+
+/* ---------- 顶部横条 GameMain.img_tiao（1900012013，九宫格 13,20,14,17） ---------- */
+.top-bar {
+  position: absolute; left: 0; top: 0; width: 1024px; height: 30px;
+  background: url('res/data/dev/res/private/main/1900012013.png') no-repeat;
+  background-size: 100% 100%;
+  z-index: 5;
+}
+
+/* ---------- 顶部：活动图标栏（dban 61x61） ---------- */
+.top-acts { position: absolute; left: 0; top: 0; }
+.top-acts .act { position: absolute; width: 61px; height: 61px; z-index: 6; }
+
+/* ---------- 右侧：角色/背包/巡航/自动（ms 70x70） ---------- */
+.side-btn { position: absolute; width: 48px; height: 48px; object-fit: contain; }
+
+/* ---------- 左上：角色信息 ---------- */
+.p-info { position: absolute; left: 8px; top: 41.4px; width: 320px; height: 120px; z-index: 6; }
+.p-avatar {
+  position: absolute; left: 0; top: 0; width: 62px; height: 62px;
+  border-radius: 50%; overflow: hidden;
+  border: 2px solid #c9a24a;
+  background: radial-gradient(circle at 40% 30%, #6a4a22, #2a1a0a);
+  box-shadow: 0 0 10px rgba(255,180,60,.45), inset 0 0 10px rgba(0,0,0,.6);
+}
+.p-avatar img { width: 100%; height: 100%; object-fit: cover; filter: brightness(1.9) saturate(1.15); }
+.p-lv {
+  position: absolute; left: 4px; top: 66px; font-size: 13px;
+  color: #ffe9a8; text-shadow: 0 1px 2px #000, 0 0 4px #000;
+}
+.p-power {
+  position: absolute; left: 72px; top: 0; font-size: 17px; font-weight: 700;
+  color: #ffd75e; white-space: nowrap;
+  text-shadow: 0 0 10px rgba(255,150,30,.95), 0 2px 3px #000;
+}
+.p-power b { color: #ffe9a0; }
+.p-nums {
+  position: absolute; left: 72px; top: 30px; font-size: 13px;
+  color: #ff7a5c; white-space: nowrap; text-shadow: 0 1px 2px #000;
+}
+.p-nums2 { position: absolute; left: 72px; top: 50px; font-size: 12px; color: #7ab6ff; }
+
+/* ---------- 右上：小地图（真素材 1900012103 底 + 1900012104 遮罩） ---------- */
+.minimap { position: absolute; left: 891px; top: 66.6px; width: 130px; height: 100px; }
+.mm-bg {
+  position: absolute; inset: 0; width: 100%; height: 100%;
+  filter: brightness(.62) saturate(.9) sepia(.25);
+}
+.mm-view {
+  position: absolute; left: 5px; top: 4px; right: 5px; bottom: 7px;
+  overflow: hidden; border-radius: 2px;
+}
+#minimap-img { width: 100%; height: 100%; display: block; object-fit: cover; }
+.minimap-dot { position: absolute; inset: 0; }
+.minimap-dot::after {
+  content: ''; position: absolute;
+  left: var(--dx, 50%); top: var(--dy, 50%);
+  width: 5px; height: 5px; margin: -2.5px 0 0 -2.5px;
+  border-radius: 50%; background: #ffe98a;
+  box-shadow: 0 0 6px rgba(255,220,100,.95);
+}
+.mm-mask { position: absolute; inset: 0; width: 100%; height: 100%; opacity: .5; pointer-events: none; }
+.mm-title {
+  position: absolute; left: 0; right: 0; top: -19px; text-align: center;
+  font-size: 12px; color: #ffe9a8; text-shadow: 0 1px 2px #000;
+}
+.mm-coord {
+  position: absolute; left: 0; right: 0; bottom: -16px; text-align: center;
+  font-size: 11px; color: #e8d9b0; text-shadow: 0 1px 2px #000;
+}
+
+/* ---------- 底部：红蓝大球（hp 左半 + mp 右半，各 54x108） ---------- */
+/* 模板实测：怒战球 108x108（素材原尺寸），圆心 (335,562) */
+.ball { position: absolute; left: 288px; top: 460.8px; width: 96px; height: 96px; z-index: 2; }
+.ball-hp, .ball-mp { position: absolute; top: 0; width: 48px; height: 96px; }
+.ball-hp { left: 0; }
+.ball-mp { left: 48px; }
+
+/* 金龙球框 1900010500 原尺寸 194x207，圆槽圆心 (130,80)
+   框左上 = 球心(335,562) - (130,80) = (205,482)，下半截超出屏幕（怒战也是这样） */
+.ball-frame {
+  position: absolute; left: 206px; top: 432.0px;
+  width: 194px; height: 207px; z-index: 1;
+  /* 素材本身是银灰色，怒战运行时染成金色 —— 这里用滤镜还原同款金色 */
+  filter: sepia(.92) saturate(2.4) hue-rotate(-9deg) brightness(1.12) contrast(1.06);
+}
+
+/* 「商」 */
+/* 商 s_2.png (38x38)，在球的左下方 */
+.btn-shang { position: absolute; left: 252px; top: 519.3px; width: 34px; height: 34px; z-index: 3; }
+
+/* ---------- 底部：四个快捷按钮 ---------- */
+.quick-row { position: absolute; left: 0; top: 0; }
+.quick {
+  position: absolute; top: 425.7px; width: 68px; height: 70px;
+  display: flex; align-items: center; justify-content: center;
+}
+.quick[data-k="回城"] { left: 390px; }
+.quick[data-k="随机"] { left: 464px; }
+.quick[data-k="传送"] { left: 537px; }
+.quick[data-k="圣装"] { left: 611px; }
+.q-ico { width: 68px; height: 70px; display: block; object-fit: contain; }
+
+/* ---------- 底部：幻影 ---------- */
+/* 幻影 lw.png (155x107) */
+.huanying { position: absolute; left: 639px; top: 462.6px; width: 140px; height: 96px; }
+
+/* ---------- 底部：货币 ---------- */
+.money {
+  position: absolute; left: 0; top: 540.9px; width: 1024px;
+  font-size: 14px; color: #e8d9b0; text-shadow: 0 1px 2px #000;
+}
+.m-yuan { position: absolute; left: 295px; }
+.m-gold { position: absolute; left: 482px; }
+.money b { color: #ffd75e; font-weight: 700; }
+
+/* ---------- 右下：技能盘（怒战实测：斜向弧形，单格 60x60，无圆环底盘） ---------- */
+.skill-wheel { position: absolute; left: 0; top: 0; }
+.sk { position: absolute; width: 70px; height: 70px; }
+.sk img {
+  width: 100%; height: 100%; border-radius: 50%; object-fit: cover;
+  border: 2px solid rgba(255, 200, 110, .85);
+  box-shadow: 0 0 10px rgba(0,0,0,.85), 0 0 6px rgba(255,170,60,.55);
+}
+
+/* ---------- 强攻 / 时间 ---------- */
+/* 强攻 icon_sifud_02.png (58x58) */
+.btn-force { position: absolute; left: 952px; top: 493.2px; width: 56px; height: 56px; }
+.clock {
+  position: absolute; left: 950px; top: 549.0px; width: 70px;
+  text-align: right; font-size: 12px; color: #fff;
+  text-shadow: 0 1px 2px #000;
+}
+
+/* ---------- 摇杆 ---------- */
+.rk { position: absolute; width: 100px; height: 100px; touch-action: none; user-select: none; }
+.rk-run { left: 167px; top: 353.7px; }
+.rk-walk { left: 34px; top: 429.3px; }
+.rk-pan { position: absolute; inset: 0; width: 100%; height: 100%; opacity: .55; }
+.rk-ball {
+  position: absolute; left: 16px; top: 16px; width: 68px; height: 68px;
+  background: url('res/data/dev/res/private/main/Rocker/1900012070.png') center / 100% 100% no-repeat;
+  will-change: transform;
+}
+.rk-show {
+  position: absolute; left: 50%; top: 50%; width: 80px; height: 80px;
+  margin: -40px 0 0 -40px; opacity: .85;
+}
+.rk.active .rk-pan { opacity: .95; }
+.rk.active .rk-ball { filter: brightness(1.4) drop-shadow(0 0 10px rgba(255,205,80,.9)); }
+
+/* ---------- 聊天 ---------- */
+/* 怒战聊天区在球的右边、四个快捷按钮下方 */
+.chat-log {
+  position: absolute; left: 452px; top: 493.2px; width: 316px; height: 86px;
+  overflow-y: auto; font-size: 11px; line-height: 15px;
+  color: rgba(235, 225, 200, .62);
+  text-shadow: 0 1px 2px #000, 0 0 3px #000; pointer-events: auto;
+  scrollbar-width: thin;
+}
+.chat-log::-webkit-scrollbar { width: 4px; }
+.chat-log::-webkit-scrollbar-thumb { background: rgba(255,200,90,.4); border-radius: 2px; }
+.chat-log .line, .chat-log .cl-line { word-break: break-all; }

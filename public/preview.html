@@ -1,0 +1,58 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<title>地图渲染预览</title>
+<style>
+  html, body { margin: 0; height: 100%; overflow: hidden; background: #000; }
+  canvas { display: block; width: 100vw; height: 100vh; }
+</style>
+</head>
+<body>
+<canvas id="c"></canvas>
+<script type="module">
+import { Renderer, Sprite } from './js/renderer.js';
+
+const canvas = document.getElementById('c');
+const r = new Renderer(canvas);
+window.__r = r;
+
+try {
+  const def = await r.loadMap('rr3');
+  console.log(`地图 ${def.group}: ${def.cellsW}x${def.cellsH} 格, ${def.cols}x${def.rows} 瓦片`);
+
+  const self = {
+    x: def.cellsW / 2,
+    y: def.cellsH / 2,
+    sprite: new Sprite('res/data/monster/monster_20133_0', { fps: 8, targetHeight: 120 }),
+  };
+  r.addActor(self);
+  r.setSelf(self);
+  r.start();
+
+  // 简单键盘移动
+  const keys = new Set();
+  window.addEventListener('keydown', (e) => keys.add(e.key.toLowerCase()));
+  window.addEventListener('keyup', (e) => keys.delete(e.key.toLowerCase()));
+  setInterval(() => {
+    let dx = 0, dy = 0;
+    if (keys.has('w') || keys.has('arrowup')) dy -= 1;
+    if (keys.has('s') || keys.has('arrowdown')) dy += 1;
+    if (keys.has('a') || keys.has('arrowleft')) dx -= 1;
+    if (keys.has('d') || keys.has('arrowright')) dx += 1;
+    if (dx || dy) {
+      const len = Math.hypot(dx, dy);
+      self.x = Math.max(0, Math.min(def.cellsW - 1, self.x + (dx / len) * 0.5));
+      self.y = Math.max(0, Math.min(def.cellsH - 1, self.y + (dy / len) * 0.5));
+      self.sprite.setAction(1);
+    } else self.sprite.setAction(0);
+  }, 16);
+
+  window.__ready = true;
+} catch (e) {
+  console.error('加载失败', e);
+  window.__error = String(e);
+}
+</script>
+</body>
+</html>

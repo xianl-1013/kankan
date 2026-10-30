@@ -1,0 +1,165 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>怒战传奇</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div id="app">
+
+  <!-- 登录界面 -->
+  <section id="login-screen" class="screen active">
+    <div class="bg-glow"></div>
+    <h1 class="title">怒战传奇</h1>
+    <p class="subtitle">经 典 · 爽 服 · 高 爆</p>
+
+    <div class="panel">
+      <div class="panel-head">登录</div>
+      <label class="field">
+        <span>账号</span>
+        <input id="account" type="text" autocomplete="username" placeholder="输入账号">
+      </label>
+      <label class="field">
+        <span>密码</span>
+        <input id="password" type="password" autocomplete="current-password" placeholder="输入密码">
+      </label>
+      <button id="btn-login" class="btn primary">进入游戏</button>
+      <div id="login-status" class="status"></div>
+    </div>
+  </section>
+
+  <!-- 角色选择 -->
+  <section id="select-screen" class="screen">
+    <h2 class="screen-title">选择角色</h2>
+    <div id="char-list" class="char-list"></div>
+    <button id="btn-start" class="btn primary" disabled>开始游戏</button>
+  </section>
+
+  <!-- 游戏画面（设计分辨率 1024x640） -->
+  <section id="game-screen" class="screen">
+    <canvas id="game-canvas"></canvas>
+
+    <div id="ui-stage">
+
+      <!-- ===== 顶部横条 GameMain.img_tiao：1900012013，y=0 铺满宽 高30 ===== -->
+      <div class="top-bar"></div>
+
+
+      <!-- ===== 左侧：属性面板 rw_bg (235x221) + 专属神器 rw_1 ===== -->
+      <div class="attr-panel">
+        <img class="attr-bg" src="res/data/dev/res/custom/xdw/ms/rw_bg.png" alt="">
+        <span class="attr-v" style="top:9.0px">530%</span>
+        <span class="attr-v" style="top:31.5px">54000%</span>
+        <span class="attr-v" style="top:54.0px">116200.00万亿</span>
+        <span class="attr-v" style="top:76.5px">17360.00万亿</span>
+        <span class="attr-v" style="top:99.0px">0/10</span>
+      </div>
+      <img class="attr-shenqi" src="res/data/dev/res/custom/xdw/ms/rw_1.png" alt="专属神器">
+
+      <!-- ===== 顶部：活动图标栏（dban，68x68，间距 83） ===== -->
+      <div class="top-acts">
+        <img class="act" style="left:344px;top:22.5px" src="res/data/dev/res/custom/xdw/dban/7.png" alt="多倍充值">
+        <img class="act" style="left:413px;top:22.5px" src="res/data/dev/res/custom/xdw/dban/29.png" alt="跨服世界">
+        <img class="act" style="left:482px;top:22.5px" src="res/data/dev/res/custom/xdw/dban/6.png" alt="本服霸主">
+        <img class="act" style="left:551px;top:22.5px" src="res/data/dev/res/custom/xdw/dban/4.png" alt="超级神技">
+        <img class="act" style="left:620px;top:22.5px" src="res/data/dev/res/custom/xdw/dban/3.png" alt="传世神器">
+        <img class="act" style="left:689px;top:22.5px" src="res/data/dev/res/custom/xdw/dban/2.png" alt="新人福利">
+        <img class="act" style="left:758px;top:22.5px" src="res/data/dev/res/custom/xdw/dban/19.png" alt="合服活动">
+        <img class="act" style="left:277px;top:89.1px" src="res/data/dev/res/custom/xdw/dban/lxsy.png" alt="离线收益">
+        <img class="act" style="left:346px;top:89.1px" src="res/data/dev/res/custom/xdw/dban/28.png" alt="王道征伐">
+        <img class="act" style="left:415px;top:89.1px" src="res/data/dev/res/custom/xdw/dban/16.png" alt="铜雀台">
+        <img class="act" style="left:484px;top:89.1px" src="res/data/dev/res/custom/xdw/dban/15.png" alt="高爆勋章">
+        <img class="act" style="left:553px;top:89.1px" src="res/data/dev/res/custom/xdw/dban/21.png" alt="无冕之王">
+        <img class="act" style="left:622px;top:89.1px" src="res/data/dev/res/custom/xdw/dban/12.png" alt="材料兑换">
+        <img class="act" style="left:691px;top:89.1px" src="res/data/dev/res/custom/xdw/dban/25.png" alt="传奇霸业">
+        <img class="act" style="left:760px;top:89.1px" src="res/data/dev/res/custom/xdw/dban/9.png" alt="在线充值">
+      </div>
+
+      <!-- ===== 左上：角色信息 ===== -->
+      <div class="p-info">
+        <div class="p-avatar"><img src="res/data/dev/res/private/main/1900012000.png" alt=""></div>
+        <div class="p-lv" id="hero-level">12003</div>
+        <div class="p-power">战力 <b>835331.19万亿</b></div>
+        <div class="p-nums" id="hp-text">1084 / 3401084 / 3401084</div>
+        <div class="p-nums2" id="mp-text"></div>
+      </div>
+
+      <!-- ===== 右上：小地图（minimap/1900012103 羊皮纸底 + 1900012104 黑遮罩） ===== -->
+      <div class="minimap">
+        <img class="mm-bg" src="res/data/dev/res/private/minimap/1900012103.png" alt="">
+        <div class="mm-view">
+          <img class="mm-map" id="minimap-img" src="res/data/dev/scene/uiminimap/010000.png" alt="">
+          <div class="minimap-dot" id="minimap-dot"></div>
+        </div>
+        <img class="mm-mask" src="res/data/dev/res/private/minimap/1900012104.png" alt="">
+        <div class="mm-title" id="minimap-title">盟重省</div>
+        <div class="mm-coord" id="minimap-coord">0,0</div>
+      </div>
+
+      <!-- ===== 底部左侧：金龙球框 + 红蓝大球 + 商 ===== -->
+      <img class="ball-frame" src="res/data/dev/res/private/main-win32/1900010500.png" alt="">
+      <div class="ball" id="ball">
+        <img class="ball-hp" id="ball-hp" src="res/data/dev/res/private/mhp_ui/hp_0.png" alt="">
+        <img class="ball-mp" id="ball-mp" src="res/data/dev/res/private/mhp_ui/mp_0.png" alt="">
+      </div>
+      <img class="btn-shang" src="res/data/dev/res/custom/xdw/ms/s_2.png" alt="">
+
+      <!-- ===== 底部中间：快捷功能按钮 ===== -->
+      <div class="quick-row">
+        <div class="quick" data-k="回城"><img class="q-ico" src="res/data/dev/res/custom/xdw/ms/h1.png" alt=""></div>
+        <div class="quick" data-k="随机"><img class="q-ico" src="res/data/dev/res/custom/xdw/ms/h2.png" alt=""></div>
+        <div class="quick" data-k="传送"><img class="q-ico" src="res/data/dev/res/custom/xdw/ms/h3.png" alt=""></div>
+        <div class="quick" data-k="圣装"><img class="q-ico" src="res/data/dev/res/custom/xdw/ms/h4.png" alt=""></div>
+      </div>
+
+      <!-- ===== 底部：幻影（主力技能钮） ===== -->
+      <img class="huanying" id="huanying" src="res/data/dev/res/custom/xdw/ms/lw.png" alt="">
+
+      <!-- ===== 底部：货币 ===== -->
+      <div class="money">
+        <span class="m-yuan">银元：<b>1.54万亿</b></span>
+        <span class="m-gold">金币：<b>1218.78亿</b></span>
+      </div>
+
+      <!-- ===== 右侧：角色 / 背包 / 巡航 / 自动 ===== -->
+      <img class="side-btn" style="left:891px;top:256.5px" src="res/data/dev/res/custom/xdw/ms/jiaose.png" alt="角色">
+      <img class="side-btn" style="left:935px;top:252.0px" src="res/data/dev/res/custom/xdw/ms/beibao.png" alt="背包">
+      <img class="side-btn" style="left:896px;top:306.0px" src="res/data/dev/res/custom/xdw/ms/xh.png" alt="巡航">
+      <img class="side-btn" style="left:940px;top:292.5px" src="res/data/dev/res/custom/xdw/ms/dd_an.png" alt="自动">
+
+      <!-- ===== 右下：技能盘（按怒战截图实测，斜向弧形 5 格 60x60） ===== -->
+      <div class="skill-wheel">
+        <div class="sk" style="left:840px;top:355.5px"><img src="res/data/dev/res/skill_icon_c/3000.png" alt=""></div>
+        <div class="sk" style="left:970px;top:378.0px"><img src="res/data/dev/res/skill_icon_c/31.png" alt=""></div>
+        <div class="sk" style="left:915px;top:418.5px"><img src="res/data/dev/res/skill_icon_c/26.png" alt=""></div>
+        <div class="sk" style="left:860px;top:472.5px"><img src="res/data/dev/res/skill_icon_c/27.png" alt=""></div>
+        <div class="sk" style="left:855px;top:535.5px"><img src="res/data/dev/res/skill_icon_c/12.png" alt=""></div>
+      </div>
+
+      <!-- ===== 右下：强攻 + 时间 ===== -->
+      <img class="btn-force" src="res/data/dev/res/private/main/Skill/icon_sifud_02.png" alt="">
+      <div class="clock" id="clock-text">00:00:00</div>
+
+      <!-- ===== 摇杆（跑上、走下） ===== -->
+      <div id="joystick-run" class="rk rk-run">
+        <img class="rk-pan" src="res/data/dev/res/private/main/Rocker/1900012073.png" alt="">
+        <div class="rk-ball"><img class="rk-show" src="res/data/dev/res/private/main/Rocker/1900012075.png" alt=""></div>
+      </div>
+      <div id="joystick-walk" class="rk rk-walk">
+        <img class="rk-pan" src="res/data/dev/res/private/main/Rocker/1900012073.png" alt="">
+        <div class="rk-ball"><img class="rk-show" src="res/data/dev/res/private/main/Rocker/1900012076.png" alt=""></div>
+      </div>
+
+      <!-- 聊天日志 -->
+      <div id="chat-log" class="chat-log"></div>
+    </div>
+  </section>
+
+</div>
+
+<script type="module" src="js/app.js"></script>
+</body>
+</html>

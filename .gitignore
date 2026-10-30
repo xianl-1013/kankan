@@ -1,0 +1,7 @@
+node_modules/
+.playwright-mcp/
+*.log
+*.bak
+*.pre16
+.DS_Store
+Thumbs.db
